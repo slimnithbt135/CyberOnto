@@ -1,0 +1,838 @@
+{
+  "report_metadata": {
+    "title": "CyberOnto v4 - Complete Experimental Report",
+    "generated_at": "2026-05-31T15:01:01.937295",
+    "random_seed": 42
+  },
+  "phase1_datasets": {
+    "synthetic_count": 1200,
+    "real_cve_count": 500
+  },
+  "phase2_ontology": {
+    "classes": 25,
+    "object_properties": 13,
+    "data_properties": 13,
+    "individuals": 6079,
+    "triples": 29182,
+    "cqs_passed": 12,
+    "cqs_total": 12,
+    "cq_coverage": "12/12",
+    "cq_details": [
+      {
+        "id": "CQ1",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ2",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ3",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ4",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ5",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ6",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ7",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ8",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ9",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ10",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ11",
+        "status": "PASS",
+        "passed": true
+      },
+      {
+        "id": "CQ12",
+        "status": "PASS",
+        "passed": true
+      }
+    ]
+  },
+  "phase3_synthetic_results": {
+    "Rule-Based": {
+      "method": "Rule-Based",
+      "accuracy": 0.7341666666666666,
+      "precision": 0.7868085222585692,
+      "recall": 0.7341666666666666,
+      "f1": 0.7212766000211267,
+      "kappa": 0.6337963494432326,
+      "per_class": {
+        "Critical": {
+          "precision": 0.576,
+          "recall": 1.0,
+          "f1": 0.730964467005076
+        },
+        "High": {
+          "precision": 0.7123595505617978,
+          "recall": 0.9434523809523809,
+          "f1": 0.8117797695262485
+        },
+        "Medium": {
+          "precision": 0.7848101265822784,
+          "recall": 0.6798245614035088,
+          "f1": 0.7285546415981199
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 0.4166666666666667,
+          "f1": 0.5882352941176471
+        }
+      },
+      "confusion_matrix": [
+        [
+          144,
+          0,
+          0,
+          0
+        ],
+        [
+          19,
+          317,
+          0,
+          0
+        ],
+        [
+          87,
+          59,
+          310,
+          0
+        ],
+        [
+          0,
+          69,
+          85,
+          110
+        ]
+      ],
+      "time_seconds": 0.042504072189331055,
+      "records_per_second": 28232.588977702988
+    },
+    "Keyword Baseline": {
+      "method": "Keyword Baseline",
+      "accuracy": 0.7891666666666667,
+      "precision": 0.8267284185364264,
+      "recall": 0.7891666666666667,
+      "f1": 0.7752783734136027,
+      "kappa": 0.7021006028636021,
+      "per_class": {
+        "Critical": {
+          "precision": 0.879746835443038,
+          "recall": 0.9652777777777778,
+          "f1": 0.9205298013245033
+        },
+        "High": {
+          "precision": 0.6802575107296137,
+          "recall": 0.9434523809523809,
+          "f1": 0.7905236907730673
+        },
+        "Medium": {
+          "precision": 0.8175965665236051,
+          "recall": 0.8355263157894737,
+          "f1": 0.8264642082429502
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 0.4166666666666667,
+          "f1": 0.5882352941176471
+        }
+      },
+      "confusion_matrix": [
+        [
+          139,
+          5,
+          0,
+          0
+        ],
+        [
+          19,
+          317,
+          0,
+          0
+        ],
+        [
+          0,
+          75,
+          381,
+          0
+        ],
+        [
+          0,
+          69,
+          85,
+          110
+        ]
+      ],
+      "time_seconds": 0.07167887687683105,
+      "records_per_second": 16741.333741347713
+    },
+    "FastText-Style": {
+      "method": "FastText-Style",
+      "accuracy": 0.3233333333333333,
+      "precision": 0.15856060606060607,
+      "recall": 0.32333333333333336,
+      "f1": 0.19833333333333333,
+      "kappa": 0.08459595959595952,
+      "per_class": {
+        "Critical": {
+          "precision": 0.6805555555555556,
+          "recall": 0.6805555555555556,
+          "f1": 0.6805555555555556
+        },
+        "High": {
+          "precision": 0.2746212121212121,
+          "recall": 0.8630952380952381,
+          "f1": 0.41666666666666663
+        },
+        "Medium": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          98,
+          46,
+          0,
+          0
+        ],
+        [
+          46,
+          290,
+          0,
+          0
+        ],
+        [
+          0,
+          456,
+          0,
+          0
+        ],
+        [
+          0,
+          264,
+          0,
+          0
+        ]
+      ],
+      "time_seconds": 0.01140904426574707,
+      "records_per_second": 105179.71287066642
+    },
+    "TF-IDF + LR": {
+      "method": "TF-IDF + LR",
+      "accuracy": 0.8816666666666667,
+      "precision": 0.8999631616425351,
+      "recall": 0.8816666666666667,
+      "f1": 0.830308942518712,
+      "kappa": 0.8279455241603257,
+      "per_class": {
+        "Critical": {
+          "precision": 1.0,
+          "recall": 0.020833333333333332,
+          "f1": 0.04081632653061225
+        },
+        "High": {
+          "precision": 0.8746736292428199,
+          "recall": 0.9970238095238095,
+          "f1": 0.9318497913769124
+        },
+        "Medium": {
+          "precision": 0.8290909090909091,
+          "recall": 1.0,
+          "f1": 0.9065606361829026
+        },
+        "Low": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          3,
+          48,
+          93,
+          0
+        ],
+        [
+          0,
+          335,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          456,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          264
+        ]
+      ],
+      "time_seconds": 0.07821774482727051,
+      "records_per_second": 15341.787245975695
+    },
+    "Majority Baseline": {
+      "method": "Majority Baseline",
+      "accuracy": 0.38,
+      "precision": 0.1444,
+      "recall": 0.38,
+      "f1": 0.20927536231884059,
+      "kappa": 0.0,
+      "per_class": {
+        "Critical": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "High": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "Medium": {
+          "precision": 0.38,
+          "recall": 1.0,
+          "f1": 0.5507246376811594
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          144,
+          0
+        ],
+        [
+          0,
+          0,
+          336,
+          0
+        ],
+        [
+          0,
+          0,
+          456,
+          0
+        ],
+        [
+          0,
+          0,
+          264,
+          0
+        ]
+      ],
+      "time_seconds": 0.001,
+      "records_per_second": 1200000.0
+    },
+    "Random Baseline": {
+      "method": "Random Baseline",
+      "accuracy": 0.26,
+      "precision": 0.2996880656654191,
+      "recall": 0.26,
+      "f1": 0.270535831128458,
+      "kappa": 0.014362776655493159,
+      "per_class": {
+        "Critical": {
+          "precision": 0.12956810631229235,
+          "recall": 0.2708333333333333,
+          "f1": 0.17528089887640447
+        },
+        "High": {
+          "precision": 0.2972027972027972,
+          "recall": 0.25297619047619047,
+          "f1": 0.2733118971061093
+        },
+        "Medium": {
+          "precision": 0.4066666666666667,
+          "recall": 0.2675438596491228,
+          "f1": 0.32275132275132273
+        },
+        "Low": {
+          "precision": 0.2108626198083067,
+          "recall": 0.25,
+          "f1": 0.22876949740034663
+        }
+      },
+      "confusion_matrix": [
+        [
+          39,
+          35,
+          30,
+          40
+        ],
+        [
+          82,
+          85,
+          78,
+          91
+        ],
+        [
+          106,
+          112,
+          122,
+          116
+        ],
+        [
+          74,
+          54,
+          70,
+          66
+        ]
+      ],
+      "time_seconds": 0.001,
+      "records_per_second": 1200000.0
+    }
+  },
+  "phase4_real_results": {
+    "Rule-Based": {
+      "method": "Rule-Based",
+      "accuracy": 0.33,
+      "precision": 0.24875099091514963,
+      "recall": 0.33,
+      "f1": 0.22787518488882424,
+      "kappa": 0.10528283745526418,
+      "per_class": {
+        "Critical": {
+          "precision": 0.36752136752136755,
+          "recall": 0.7166666666666667,
+          "f1": 0.4858757062146893
+        },
+        "High": {
+          "precision": 0.3205882352941177,
+          "recall": 0.7785714285714286,
+          "f1": 0.45416666666666666
+        },
+        "Medium": {
+          "precision": 0.3023255813953488,
+          "recall": 0.06842105263157895,
+          "f1": 0.11158798283261803
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          43,
+          17,
+          0,
+          0
+        ],
+        [
+          31,
+          109,
+          0,
+          0
+        ],
+        [
+          24,
+          153,
+          13,
+          0
+        ],
+        [
+          19,
+          61,
+          30,
+          0
+        ]
+      ],
+      "time_seconds": 0.025252342224121094,
+      "records_per_second": 19800.143509951282
+    },
+    "Keyword Baseline": {
+      "method": "Keyword Baseline",
+      "accuracy": 0.378,
+      "precision": 0.30024242424242426,
+      "recall": 0.378,
+      "f1": 0.26938053323127953,
+      "kappa": 0.1484118291347207,
+      "per_class": {
+        "Critical": {
+          "precision": 0.7166666666666667,
+          "recall": 0.7166666666666667,
+          "f1": 0.7166666666666667
+        },
+        "High": {
+          "precision": 0.3333333333333333,
+          "recall": 0.9428571428571428,
+          "f1": 0.49253731343283585
+        },
+        "Medium": {
+          "precision": 0.3181818181818182,
+          "recall": 0.07368421052631578,
+          "f1": 0.11965811965811965
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          43,
+          17,
+          0,
+          0
+        ],
+        [
+          8,
+          132,
+          0,
+          0
+        ],
+        [
+          0,
+          176,
+          14,
+          0
+        ],
+        [
+          9,
+          71,
+          30,
+          0
+        ]
+      ],
+      "time_seconds": 0.031228303909301758,
+      "records_per_second": 16011.116116077905
+    },
+    "FastText-Style": {
+      "method": "FastText-Style",
+      "accuracy": 0.344,
+      "precision": 0.17654210264075734,
+      "recall": 0.344,
+      "f1": 0.21380276630141906,
+      "kappa": 0.11024305555555551,
+      "per_class": {
+        "Critical": {
+          "precision": 0.7962962962962963,
+          "recall": 0.7166666666666667,
+          "f1": 0.7543859649122806
+        },
+        "High": {
+          "precision": 0.289237668161435,
+          "recall": 0.9214285714285714,
+          "f1": 0.4402730375426621
+        },
+        "Medium": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          43,
+          17,
+          0,
+          0
+        ],
+        [
+          11,
+          129,
+          0,
+          0
+        ],
+        [
+          0,
+          190,
+          0,
+          0
+        ],
+        [
+          0,
+          110,
+          0,
+          0
+        ]
+      ],
+      "time_seconds": 0.005481243133544922,
+      "records_per_second": 91220.18268812528
+    },
+    "TF-IDF + LR": {
+      "method": "TF-IDF + LR",
+      "accuracy": 0.424,
+      "precision": 0.5498545657241309,
+      "recall": 0.424,
+      "f1": 0.3862770375142068,
+      "kappa": 0.17208072212959236,
+      "per_class": {
+        "Critical": {
+          "precision": 1.0,
+          "recall": 0.21666666666666667,
+          "f1": 0.3561643835616438
+        },
+        "High": {
+          "precision": 0.38961038961038963,
+          "recall": 0.8571428571428571,
+          "f1": 0.5357142857142857
+        },
+        "Medium": {
+          "precision": 0.391025641025641,
+          "recall": 0.32105263157894737,
+          "f1": 0.35260115606936415
+        },
+        "Low": {
+          "precision": 0.782608695652174,
+          "recall": 0.16363636363636364,
+          "f1": 0.2706766917293233
+        }
+      },
+      "confusion_matrix": [
+        [
+          13,
+          47,
+          0,
+          0
+        ],
+        [
+          0,
+          120,
+          15,
+          5
+        ],
+        [
+          0,
+          129,
+          61,
+          0
+        ],
+        [
+          0,
+          12,
+          80,
+          18
+        ]
+      ],
+      "time_seconds": 0.038582801818847656,
+      "records_per_second": 12959.141804879255
+    },
+    "Majority Baseline": {
+      "method": "Majority Baseline",
+      "accuracy": 0.38,
+      "precision": 0.1444,
+      "recall": 0.38,
+      "f1": 0.20927536231884059,
+      "kappa": 0.0,
+      "per_class": {
+        "Critical": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "High": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        },
+        "Medium": {
+          "precision": 0.38,
+          "recall": 1.0,
+          "f1": 0.5507246376811594
+        },
+        "Low": {
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          60,
+          0
+        ],
+        [
+          0,
+          0,
+          140,
+          0
+        ],
+        [
+          0,
+          0,
+          190,
+          0
+        ],
+        [
+          0,
+          0,
+          110,
+          0
+        ]
+      ],
+      "time_seconds": 0.001,
+      "records_per_second": 500000.0
+    },
+    "Random Baseline": {
+      "method": "Random Baseline",
+      "accuracy": 0.244,
+      "precision": 0.28839449735449735,
+      "recall": 0.244,
+      "f1": 0.25605447058089476,
+      "kappa": -0.004624461808324046,
+      "per_class": {
+        "Critical": {
+          "precision": 0.09523809523809523,
+          "recall": 0.2,
+          "f1": 0.12903225806451613
+        },
+        "High": {
+          "precision": 0.25925925925925924,
+          "recall": 0.25,
+          "f1": 0.2545454545454545
+        },
+        "Medium": {
+          "precision": 0.40350877192982454,
+          "recall": 0.24210526315789474,
+          "f1": 0.3026315789473684
+        },
+        "Low": {
+          "precision": 0.232,
+          "recall": 0.2636363636363636,
+          "f1": 0.24680851063829787
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          20,
+          13,
+          15
+        ],
+        [
+          41,
+          35,
+          28,
+          36
+        ],
+        [
+          46,
+          53,
+          46,
+          45
+        ],
+        [
+          27,
+          27,
+          27,
+          29
+        ]
+      ],
+      "time_seconds": 0.001,
+      "records_per_second": 500000.0
+    }
+  },
+  "phase5_mcnemar": [
+    {
+      "comparison": "Rule-Based vs Keyword Baseline",
+      "n_01": 71,
+      "n_10": 5,
+      "chi2": 55.5921052631579,
+      "p_value": 8.915090887740007e-14,
+      "significant": true
+    },
+    {
+      "comparison": "Rule-Based vs TF-IDF + LR",
+      "n_01": 319,
+      "n_10": 142,
+      "chi2": 67.19305856832972,
+      "p_value": 2.220446049250313e-16,
+      "significant": true
+    },
+    {
+      "comparison": "Rule-Based vs FastText-Style",
+      "n_01": 0,
+      "n_10": 493,
+      "chi2": 491.00202839756594,
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "comparison": "Rule-Based vs Majority Baseline",
+      "n_01": 146,
+      "n_10": 571,
+      "chi2": 250.73361227336122,
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "comparison": "Rule-Based vs Random Baseline",
+      "n_01": 83,
+      "n_10": 652,
+      "chi2": 438.94421768707485,
+      "p_value": 0.0,
+      "significant": true
+    },
+    {
+      "comparison": "Keyword Baseline vs FastText-Style",
+      "n_01": 0,
+      "n_10": 493,
+      "chi2": 491.00202839756594,
+      "p_value": 0.0,
+      "significant": true
+    }
+  ],
+  "phase6_summary": {
+    "best_synthetic_method": "TF-IDF + LR",
+    "best_real_method": "TF-IDF + LR",
+    "ontology_validated": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "CQ1": {
+    "category": "Vulnerability Retrieval",
+    "question": "Which vulnerabilities in the dataset have Critical severity and involve remote code execution?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?vuln ?cveId ?description\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasSeverity co:Critical ;\n        co:cveId ?cveId ;\n        co:description ?description .\n  FILTER(CONTAINS(LCASE(STR(?description)), \"remote code execution\"))\n}\nORDER BY ?cveId",
+    "expected_count": 48,
+    "explanation": "Retrieves all CVE instances classified as Critical whose descriptions contain the phrase 'remote code execution'. This represents the most dangerous vulnerabilities requiring immediate attention."
+  },
+  "CQ2": {
+    "category": "Vulnerability Retrieval",
+    "question": "What is the CVSS base score distribution across all High-severity vulnerabilities?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?score (COUNT(?vuln) AS ?count)\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasSeverity co:High ;\n        co:cvssBaseScore ?score .\n}\nGROUP BY ?score\nORDER BY DESC(?count)",
+    "expected_count": 5,
+    "explanation": "Aggregates CVSS base scores for High-severity vulnerabilities, revealing the score distribution pattern. High-severity CVEs typically cluster in the 7.0-8.9 range."
+  },
+  "CQ3": {
+    "category": "Vulnerability Retrieval",
+    "question": "Which products are most frequently affected by Medium-severity cross-site scripting vulnerabilities?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?product (COUNT(?vuln) AS ?vulnCount)\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasSeverity co:Medium ;\n        co:affectsProduct ?product ;\n        co:description ?desc .\n  FILTER(CONTAINS(LCASE(STR(?desc)), \"cross-site scripting\") ||\n         CONTAINS(LCASE(STR(?desc)), \"xss\"))\n}\nGROUP BY ?product\nORDER BY DESC(?vulnCount)\nLIMIT 10",
+    "expected_count": 10,
+    "explanation": "Ranks products by frequency of Medium-severity XSS vulnerabilities, enabling security teams to prioritise patching efforts for the most affected products."
+  },
+  "CQ4": {
+    "category": "Vulnerability Retrieval",
+    "question": "What CWE classifications are associated with buffer overflow vulnerabilities in the dataset?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX cwe: <https://cwe.mitre.org/data/definitions/>\n\nSELECT DISTINCT ?cweId ?cweName\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasCWE ?cwe ;\n        co:description ?desc .\n  ?cwe co:cweId ?cweId ;\n       co:cweName ?cweName .\n  FILTER(CONTAINS(LCASE(STR(?desc)), \"buffer overflow\"))\n}\nORDER BY ?cweId",
+    "expected_count": 4,
+    "explanation": "Joins CVE records with CWE classifications to identify weakness types associated with buffer overflow descriptions. Expected results include CWE-121 (Stack-based Buffer Overflow) and CWE-122 (Heap-based Buffer Overflow)."
+  },
+  "CQ5": {
+    "category": "Cross-Framework Reasoning",
+    "question": "Which ATT&CK techniques are associated with vulnerabilities that have Information Disclosure impact?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX attack: <https://attack.mitre.org/techniques/>\n\nSELECT DISTINCT ?techniqueId ?techniqueName\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasAttackTechnique ?technique ;\n        co:hasImpactScope co:InformationDisclosure .\n  ?technique co:attckId ?techniqueId ;\n             co:attckName ?techniqueName .\n}\nORDER BY ?techniqueId",
+    "expected_count": 6,
+    "explanation": "Traverses from CVE instances through attack technique relationships to identify ATT&CK techniques linked to information disclosure vulnerabilities. Demonstrates cross-framework traversal from vulnerability data to adversary tactics."
+  },
+  "CQ6": {
+    "category": "Cross-Framework Reasoning",
+    "question": "What D3FEND countermeasures map to the attack techniques used by Critical-severity vulnerabilities?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX d3f: <https://d3fend.mitre.org/technique/d3f:>\n\nSELECT DISTINCT ?counterId ?counterName\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasSeverity co:Critical ;\n        co:hasAttackTechnique ?technique .\n  ?technique co:mitigatedBy ?counter .\n  ?counter co:d3fendId ?counterId ;\n           co:d3fendName ?counterName .\n}\nORDER BY ?counterId",
+    "expected_count": 8,
+    "explanation": "Performs a two-hop traversal from Critical CVEs through ATT&CK techniques to D3FEND countermeasures. This cross-framework join is a key differentiator of CyberOnto---no single security standard provides this linkage."
+  },
+  "CQ7": {
+    "category": "Cross-Framework Reasoning",
+    "question": "Which vulnerabilities bridge specific ATT&CK tactics to D3FEND defensive measures through CWE weaknesses?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?vuln ?cveId ?cweName ?tacticName ?counterName\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:cveId ?cveId ;\n        co:hasCWE ?cwe ;\n        co:hasAttackTechnique ?technique .\n  ?cwe co:cweName ?cweName .\n  ?technique co:attckTactic ?tactic ;\n             co:mitigatedBy ?counter .\n  ?tactic co:tacticName ?tacticName .\n  ?counter co:d3fendName ?counterName .\n}\nORDER BY ?cveId\nLIMIT 20",
+    "expected_count": 20,
+    "explanation": "Executes multi-hop reasoning across three frameworks: CWE weaknesses link vulnerabilities to ATT&CK tactics, which map to D3FEND countermeasures. This three-way join demonstrates CyberOnto's unique ability to bridge vulnerability, adversary, and defensive knowledge in a single query."
+  },
+  "CQ8": {
+    "category": "Cross-Framework Reasoning",
+    "question": "What is the coverage of the ATT&CK tactic 'Initial Access' in the vulnerability dataset?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT (COUNT(DISTINCT ?vuln) AS ?vulnCount)\n       (COUNT(DISTINCT ?technique) AS ?techniqueCount)\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:hasAttackTechnique ?technique .\n  ?technique co:attckTactic ?tactic .\n  ?tactic co:tacticName \"Initial Access\" .\n}",
+    "expected_count": 2,
+    "explanation": "Counts vulnerabilities and techniques mapped to the ATT&CK Initial Access tactic, quantifying how much of the dataset relates to the adversary lifecycle phase of gaining an initial foothold."
+  },
+  "CQ9": {
+    "category": "Threat Intelligence Enrichment",
+    "question": "Given a vulnerability, what mitigations, detection methods, and security controls are applicable?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?cveId ?mitigation ?detection ?control\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:cveId ?cveId ;\n        co:hasMitigation ?mit ;\n        co:hasDetectionMethod ?det ;\n        co:hasSecurityControl ?ctrl .\n  ?mit co:mitigationName ?mitigation .\n  ?det co:detectionName ?detection .\n  ?ctrl co:controlName ?control .\n}\nORDER BY ?cveId\nLIMIT 10",
+    "expected_count": 10,
+    "explanation": "Retrieves the complete defensive profile for each vulnerability: mitigations (how to fix), detection methods (how to find), and security controls (how to prevent). This triple-enrichment query is essential for security operations centres building comprehensive response plans."
+  },
+  "CQ10": {
+    "category": "Threat Intelligence Enrichment",
+    "question": "Which vulnerabilities share both attack techniques and affected products?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?vuln1 ?cve1 ?vuln2 ?cve2 ?sharedTechnique ?sharedProduct\nWHERE {\n  ?vuln1 rdf:type co:CVE ;\n         co:cveId ?cve1 ;\n         co:hasAttackTechnique ?tech ;\n         co:affectsProduct ?prod .\n  ?vuln2 rdf:type co:CVE ;\n         co:cveId ?cve2 ;\n         co:hasAttackTechnique ?tech ;\n         co:affectsProduct ?prod .\n  ?tech co:attckName ?sharedTechnique .\n  FILTER(?vuln1 != ?vuln2 && ?cve1 < ?cve2)\n}\nORDER BY ?sharedProduct ?sharedTechnique\nLIMIT 15",
+    "expected_count": 15,
+    "explanation": "Finds vulnerability pairs that share both attack technique and product, identifying clusters of related vulnerabilities. Security analysts use this to assess whether a newly disclosed vulnerability affects products with known vulnerability patterns."
+  },
+  "CQ11": {
+    "category": "Threat Intelligence Enrichment",
+    "question": "What is the complete attack path from a vulnerability to its defensive countermeasures?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?cveId ?vulnDesc ?techniqueName ?tacticName ?counterName\nWHERE {\n  ?vuln rdf:type co:CVE ;\n        co:cveId ?cveId ;\n        co:description ?vulnDesc ;\n        co:hasAttackTechnique ?technique .\n  ?technique co:attckName ?techniqueName ;\n             co:attckTactic ?tactic ;\n             co:mitigatedBy ?counter .\n  ?tactic co:tacticName ?tacticName .\n  ?counter co:d3fendName ?counterName .\n}\nORDER BY ?cveId\nLIMIT 20",
+    "expected_count": 20,
+    "explanation": "Traces the complete path from vulnerability description through attack technique and tactic to defensive countermeasure. This path query demonstrates CyberOnto's ability to connect offensive and defensive knowledge in a single traversal."
+  },
+  "CQ12": {
+    "category": "Threat Intelligence Enrichment",
+    "question": "How many vulnerabilities lack associated mitigations in the current knowledge base?",
+    "sparql": "PREFIX co: <http://cyberonto.org/ontology#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT (COUNT(?vuln) AS ?unmitigatedCount)\nWHERE {\n  ?vuln rdf:type co:CVE .\n  OPTIONAL { ?vuln co:hasMitigation ?mit . }\n  FILTER(!BOUND(?mit))\n}",
+    "expected_count": 1,
+    "explanation": "Counts vulnerabilities with no mitigation relationship, identifying gaps in the knowledge base that require analyst attention. This gap analysis query helps prioritise knowledge enrichment efforts."
+  }
+}
