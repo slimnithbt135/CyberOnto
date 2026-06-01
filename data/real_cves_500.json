@@ -1,0 +1,3902 @@
+[
+  {
+    "cve_id": "CVE-2021-0134",
+    "severity": "Critical",
+    "description": "Citrix ADC contains a remote code execution vulnerability in the database connector that allows an attacker to execute arbitrary code via crafted REST API requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Citrix ADC",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0321",
+    "severity": "Medium",
+    "description": "An integer overflow in Cypress can lead to unexpected behavior in the session manager when processing large input values.",
+    "product": "Cypress",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0218",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in OAuth2 Proxy logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "OAuth2 Proxy",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0294",
+    "severity": "Medium",
+    "description": "Cilium does not properly sanitize user input in the search functionality, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Cilium",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0255",
+    "severity": "Medium",
+    "description": "OpenLDAP does not properly sanitize user input in the backup utility, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "OpenLDAP",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0224",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Squid allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Squid",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0376",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Kibana allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Kibana",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0396",
+    "severity": "Low",
+    "description": "Vue.js allows password autocomplete in the logging subsystem, which may facilitate credential theft on shared computers.",
+    "product": "Vue.js",
+    "year": 2022,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-1999-0239",
+    "severity": "High",
+    "description": "Netscape FastTrack Web server lists files when a lowercase \"get\" command is used instead of an uppercase GET.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2004-2013",
+    "severity": "High",
+    "description": "Integer overflow in the SCTP_SOCKOPT_DEBUG_NAME SCTP socket option in socket.c in the Linux kernel 2.4.25 and earlier allows local users to execute arbitrary code via an optlen value of -1, which causes kmalloc to allocate 0 bytes of memory.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2005-1891",
+    "severity": "High",
+    "description": "The GIF parser in ateimg32.dll in AOL Instant Messenger (AIM) 5.9.3797 and earlier allows remote attackers to cause a denial of service (crash) via a malformed buddy icon that causes an integer underflow in a loop counter variable.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2001-1043",
+    "severity": "High",
+    "description": "ArGoSoft FTP Server 1.2.2.2 allows remote attackers to read arbitrary files and directories by uploading a .lnk (link) file that points to the target file.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2004-0816",
+    "severity": "High",
+    "description": "Integer underflow in the firewall logging rules for iptables in Linux before 2.6.8 allows remote attackers to cause a denial of service (application crash) via a malformed IP packet.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0317",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in GitLab allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "GitLab",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0415",
+    "severity": "Low",
+    "description": "Playwright allows password autocomplete in the database connector, which may facilitate credential theft on shared computers.",
+    "product": "Playwright",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0402",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Cucumber could allow client-side scripts to access session tokens.",
+    "product": "Cucumber",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2005-1828",
+    "severity": "High",
+    "description": "D-Link DSL-504T stores usernames and passwords in cleartext in the router configuration file, which allows remote attackers to obtain sensitive information.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2001-1515",
+    "severity": "High",
+    "description": "Macintosh clients, when using NT file system volumes on Windows 2000 SP1, create subdirectories and automatically modify the inherited NTFS permissions, which may cause the directories to have less restrictive permissions than intended.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0213",
+    "severity": "Medium",
+    "description": "Apache Pulsar implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Apache Pulsar",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0320",
+    "severity": "Medium",
+    "description": "An integer overflow in  ASUS routers can lead to unexpected behavior in the logging subsystem when processing large input values.",
+    "product": " ASUS routers",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0268",
+    "severity": "Medium",
+    "description": "An integer overflow in MongoDB can lead to unexpected behavior in the event processor when processing large input values.",
+    "product": "MongoDB",
+    "year": 2021,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0113",
+    "severity": "Critical",
+    "description": "A command injection flaw in JBoss permits remote authenticated users to execute arbitrary system commands with elevated privileges through the backup restore interface.",
+    "product": "JBoss",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2002-1796",
+    "severity": "High",
+    "description": "ChaiVM EZloader for HP color LaserJet 4500 and 4550 and HP LaserJet 4100 and 8150 does not properly verify JAR signatures for new services, which allows local users to load unauthorized Chai services.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2004-0079",
+    "severity": "High",
+    "description": "The do_change_cipher_spec function in OpenSSL 0.9.6c to 0.9.6k, and 0.9.7a to 0.9.7c, allows remote attackers to cause a denial of service (crash) via a crafted SSL/TLS handshake that triggers a null dereference.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2002-1657",
+    "severity": "High",
+    "description": "PostgreSQL uses the username for a salt when generating passwords, which makes it easier for remote attackers to guess passwords via a brute force attack.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0490",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in ownCloud could allow client-side scripts to access session tokens.",
+    "product": "ownCloud",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0120",
+    "severity": "Critical",
+    "description": "A critical SQL injection vulnerability in Filebeat enables attackers to extract sensitive database contents, modify data, and potentially execute operating system commands.",
+    "product": "Filebeat",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0478",
+    "severity": "Low",
+    "description": "Smoothwall logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "Smoothwall",
+    "year": 2024,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2001-1536",
+    "severity": "High",
+    "description": "Autogalaxy stores usernames and passwords in cleartext in cookies, which makes it easier for remote attackers to obtain authentication information and gain unauthorized access via sniffing or a cross-site scripting attack.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0189",
+    "severity": "High",
+    "description": "A denial of service vulnerability in MinIO can be triggered by sending specially crafted TCP requests, causing the application to become unresponsive.",
+    "product": "MinIO",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0284",
+    "severity": "Medium",
+    "description": "OpenLDAP transmits sensitive data over unencrypted channels in the message queue, exposing it to network eavesdropping.",
+    "product": "OpenLDAP",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0197",
+    "severity": "High",
+    "description": "Bitbucket exposes sensitive information through error messages and debug endpoints that reveal internal file paths and system configuration.",
+    "product": "Bitbucket",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0446",
+    "severity": "Low",
+    "description": "MikroTik RouterOS allows password autocomplete in the search functionality, which may facilitate credential theft on shared computers.",
+    "product": "MikroTik RouterOS",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2004-1842",
+    "severity": "High",
+    "description": "Cross-site request forgery (CSRF) vulnerability in Php-Nuke 6.x through 7.1.0 allows remote attackers to gain administrative privileges via an img tag with a URL to admin.php.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0409",
+    "severity": "Low",
+    "description": "A documentation error in Hibernate security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "Hibernate",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2001-1238",
+    "severity": "High",
+    "description": "Task Manager in Windows 2000 does not allow local users to end processes with uppercase letters named (1) winlogon.exe, (2) csrss.exe, (3) smss.exe and (4) services.exe via the Process tab which could allow local users to install Trojan horses that cannot be stopped with the Task Manager.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2004-0119",
+    "severity": "High",
+    "description": "The Negotiate Security Software Provider (SSP) interface in Windows 2000, Windows XP, and Windows Server 2003, allows remote attackers to cause a denial of service (crash from null dereference) or execute arbitrary code via a crafted SPNEGO NegTokenInit request during authentication protocol selection.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0183",
+    "severity": "High",
+    "description": "A race condition in Kibana allows local users to gain privileges by exploiting a window between security checks and resource access.",
+    "product": "Kibana",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0487",
+    "severity": "Low",
+    "description": "An insecure default configuration in GlusterFS enables unnecessary services that expand the attack surface.",
+    "product": "GlusterFS",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2003-1000",
+    "severity": "High",
+    "description": "xchat 2.0.6 allows remote attackers to cause a denial of service (crash) via a passive DCC request with an invalid ID number, which causes a null dereference.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0343",
+    "severity": "Medium",
+    "description": "An integer overflow in Terraform can lead to unexpected behavior in the cache manager when processing large input values.",
+    "product": "Terraform",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0484",
+    "severity": "Low",
+    "description": "Subversion allows password autocomplete in the plugin system, which may facilitate credential theft on shared computers.",
+    "product": "Subversion",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0193",
+    "severity": "High",
+    "description": "A denial of service vulnerability in Log4j can be triggered by sending specially crafted SSH requests, causing the application to become unresponsive.",
+    "product": "Log4j",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2000-0498",
+    "severity": "High",
+    "description": "Unify eWave ServletExec allows a remote attacker to view source code of a JSP program by requesting a URL which provides the JSP extension in upper case.",
+    "source": "nvd_api",
+    "year": 2000
+  },
+  {
+    "cve_id": "CVE-2021-0476",
+    "severity": "Low",
+    "description": "An insecure default configuration in Apache Cassandra enables unnecessary services that expand the attack surface.",
+    "product": "Apache Cassandra",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0336",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Istio allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Istio",
+    "year": 2024,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0378",
+    "severity": "Medium",
+    "description": "tcpdump does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "tcpdump",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0445",
+    "severity": "Low",
+    "description": "Spring Framework contains a minor information disclosure in the message queue where version numbers are exposed in HTTP response headers.",
+    "product": "Spring Framework",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0216",
+    "severity": "Medium",
+    "description": "Xen does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Xen",
+    "year": 2021,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2002-0628",
+    "severity": "High",
+    "description": "The Telnet service for Polycom ViewStation before 7.2.4 does not restrict the number of failed login attempts, which makes it easier for remote attackers to guess usernames and passwords via a brute force attack.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0262",
+    "severity": "Medium",
+    "description": "Apache Storm allows local users to read sensitive files through the authentication module due to improper permission settings on configuration directories.",
+    "product": "Apache Storm",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0332",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Spark logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Spark",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0454",
+    "severity": "Low",
+    "description": "Cassandra does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Cassandra",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2001-1386",
+    "severity": "High",
+    "description": "WFTPD 3.00 allows remote attackers to read arbitrary files by uploading a (link) file that ends in a \".lnk.\" extension, which bypasses WFTPD's check for a \".lnk\" extension.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0397",
+    "severity": "Low",
+    "description": "An insecure default configuration in TeamCity enables unnecessary services that expand the attack surface.",
+    "product": "TeamCity",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2001-0950",
+    "severity": "High",
+    "description": "ValiCert Enterprise Validation Authority (EVA) Administration Server 3.3 through 4.2.1 uses insufficiently random data to (1) generate session tokens for HSMs using the C rand function, or (2) generate certificates or keys using /dev/urandom instead of another source which blocks when the entropy pool is low, which could make it easier for local or remote attackers to steal tokens or certificates via brute force guessing.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0170",
+    "severity": "High",
+    "description": "Kubernetes Ingress fails to properly validate certificates in the metrics collector, allowing man-in-the-middle attackers to intercept and modify encrypted communications.",
+    "product": "Kubernetes Ingress",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0185",
+    "severity": "High",
+    "description": "A stored cross-site scripting vulnerability in Ubiquiti EdgeOS permits persistent injection of malicious scripts that execute whenever affected pages are loaded.",
+    "product": "Ubiquiti EdgeOS",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0423",
+    "severity": "Low",
+    "description": "ClickHouse logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "ClickHouse",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0489",
+    "severity": "Low",
+    "description": "Apache Solr contains a minor information disclosure in the session manager where version numbers are exposed in HTTP response headers.",
+    "product": "Apache Solr",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0381",
+    "severity": "Medium",
+    "description": "OWASP ZAP does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "OWASP ZAP",
+    "year": 2023,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0404",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Fastly reduce defense-in-depth against potential injection attacks.",
+    "product": "Fastly",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0417",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in WebLogic reduce defense-in-depth against potential injection attacks.",
+    "product": "WebLogic",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0137",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in TP-Link routers allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "TP-Link routers",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0125",
+    "severity": "Critical",
+    "description": "An XML external entity (XXE) injection flaw in Harbor allows remote attackers to read arbitrary files and conduct server-side request forgery attacks.",
+    "product": "Harbor",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0315",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Apache Pulsar logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Apache Pulsar",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0356",
+    "severity": "Medium",
+    "description": "ownCloud implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "ownCloud",
+    "year": 2021,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0291",
+    "severity": "Medium",
+    "description": "Vault does not properly sanitize user input in the notification service, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Vault",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2005-1036",
+    "severity": "High",
+    "description": "FreeBSD 5.x to 5.4 on AMD64 does not properly initialize the IO permission bitmap used to allow user access to certain hardware, which allows local users to bypass intended access restrictions to cause a denial of service, obtain sensitive information, and possibly gain privileges.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0256",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Artifactory allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Artifactory",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0278",
+    "severity": "Medium",
+    "description": "React does not properly sanitize user input in the file upload handler, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "React",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0126",
+    "severity": "Critical",
+    "description": "pytest allows unauthenticated remote code execution via the plugin system due to improper input validation. Attackers can exploit this flaw to gain root privileges on affected systems.",
+    "product": "pytest",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0162",
+    "severity": "High",
+    "description": "A cryptographic weakness in Arista EOS uses insufficiently random values for session tokens, enabling attackers to predict and hijack user sessions.",
+    "product": "Arista EOS",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0295",
+    "severity": "Medium",
+    "description": "A timing side-channel in Kibana allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Kibana",
+    "year": 2023,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2002-2058",
+    "severity": "High",
+    "description": "TeeKai Tracking Online 1.0 uses weak encryption of web usage statistics in data/userlog/log.txt, which allows remote attackers to identify IP's visiting the site by dividing each octet by the MD5 hash of '20'.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0127",
+    "severity": "Critical",
+    "description": " OrientDB contains an authentication bypass vulnerability in the logging subsystem that allows remote attackers to gain administrative access without valid credentials.",
+    "product": " OrientDB",
+    "year": 2023,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0107",
+    "severity": "Critical",
+    "description": "Subversion is affected by a deserialization vulnerability that allows unauthenticated remote attackers to execute arbitrary code by sending specially crafted requests to the the database connector endpoint.",
+    "product": "Subversion",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0237",
+    "severity": "Medium",
+    "description": "VMware vSphere transmits sensitive data over unencrypted channels in the input sanitiser, exposing it to network eavesdropping.",
+    "product": "VMware vSphere",
+    "year": 2024,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0322",
+    "severity": "Medium",
+    "description": "A timing side-channel in Google Cloud Platform allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Google Cloud Platform",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2001-0795",
+    "severity": "High",
+    "description": "Perception LiteServe 1.25 allows remote attackers to obtain source code of CGI scripts via URLs that contain MS-DOS conventions such as (1) upper case letters or (2) 8.3 file names.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0287",
+    "severity": "Medium",
+    "description": "An integer overflow in Cassandra can lead to unexpected behavior in the session manager when processing large input values.",
+    "product": "Cassandra",
+    "year": 2021,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2004-0747",
+    "severity": "High",
+    "description": "Buffer overflow in Apache 2.0.50 and earlier allows local users to gain apache privileges via a .htaccess file that causes the overflow during expansion of environment variables.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2004-0940",
+    "severity": "High",
+    "description": "Buffer overflow in the get_tag function in mod_include for Apache 1.3.x to 1.3.32 allows local users who can create SSI documents to execute arbitrary code as the apache user via SSI (XSSI) documents that trigger a length calculation error.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2002-1706",
+    "severity": "High",
+    "description": "Cisco IOS software 11.3 through 12.2 running on Cisco uBR7200 and uBR7100 series Universal Broadband Routers allows remote attackers to modify Data Over Cable Service Interface Specification (DOCSIS) settings via a DOCSIS file without a Message Integrity Check (MIC) signature, which is approved by the router.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0159",
+    "severity": "Critical",
+    "description": "OSSEC is affected by a deserialization vulnerability that allows unauthenticated remote attackers to execute arbitrary code by sending specially crafted requests to the the API endpoint endpoint.",
+    "product": "OSSEC",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2004-0365",
+    "severity": "High",
+    "description": "The dissect_attribute_value_pairs function in packet-radius.c for Ethereal 0.8.13 to 0.10.2 allows remote attackers to cause a denial of service (crash) via a malformed RADIUS packet that triggers a null dereference.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0465",
+    "severity": "Low",
+    "description": "WebLogic logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "WebLogic",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0202",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Log4j allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Log4j",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0459",
+    "severity": "Low",
+    "description": "An insecure default configuration in Juniper switches enables unnecessary services that expand the attack surface.",
+    "product": "Juniper switches",
+    "year": 2024,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0309",
+    "severity": "Medium",
+    "description": "Apache Kafka implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Apache Kafka",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-1999-1127",
+    "severity": "High",
+    "description": "Windows NT 4.0 does not properly shut down invalid named pipe RPC connections, which allows remote attackers to cause a denial of service (resource exhaustion) via a series of connections containing malformed data, aka the \"Named Pipes Over RPC\" vulnerability.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2021-0346",
+    "severity": "Medium",
+    "description": "Bitbucket allows local users to read sensitive files through the certificate validator due to improper permission settings on configuration directories.",
+    "product": "Bitbucket",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2000-0258",
+    "severity": "Medium",
+    "description": "IIS 4.0 and 5.0 allows remote attackers to cause a denial of service by sending many URLs with a large number of escaped characters, aka the \"Myriad Escaped Characters\" Vulnerability.",
+    "source": "nvd_api",
+    "year": 2000
+  },
+  {
+    "cve_id": "CVE-2021-0434",
+    "severity": "Low",
+    "description": "Flutter allows password autocomplete in the web interface, which may facilitate credential theft on shared computers.",
+    "product": "Flutter",
+    "year": 2021,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2002-0653",
+    "severity": "High",
+    "description": "Off-by-one buffer overflow in the ssl_compat_directive function, as called by the rewrite_command hook for mod_ssl Apache module 2.8.9 and earlier, allows local users to execute arbitrary code as the Apache server user via .htaccess files with long entries.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0285",
+    "severity": "Medium",
+    "description": "JUnit does not properly sanitize user input in the file upload handler, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "JUnit",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0212",
+    "severity": "Medium",
+    "description": "Travis CI allows local users to read sensitive files through the scheduler due to improper permission settings on configuration directories.",
+    "product": "Travis CI",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0427",
+    "severity": "Low",
+    "description": "Harbor logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "Harbor",
+    "year": 2024,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0342",
+    "severity": "Medium",
+    "description": "OpenSSL allows local users to read sensitive files through the backup utility due to improper permission settings on configuration directories.",
+    "product": "OpenSSL",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0328",
+    "severity": "Medium",
+    "description": "Jenkins transmits sensitive data over unencrypted channels in the certificate validator, exposing it to network eavesdropping.",
+    "product": "Jenkins",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0349",
+    "severity": "Medium",
+    "description": "ArangoDB allows local users to read sensitive files through the message queue due to improper permission settings on configuration directories.",
+    "product": "ArangoDB",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0375",
+    "severity": "Medium",
+    "description": "Netgear routers transmits sensitive data over unencrypted channels in the notification service, exposing it to network eavesdropping.",
+    "product": "Netgear routers",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0154",
+    "severity": "Critical",
+    "description": "Tomcat contains a remote code execution vulnerability in the input sanitiser that allows an attacker to execute arbitrary code via crafted UDP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Tomcat",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2002-0401",
+    "severity": "High",
+    "description": "SMB dissector in Ethereal 0.9.3 and earlier allows remote attackers to cause a denial of service (crash) or execute arbitrary code via malformed packets that cause Ethereal to dereference a NULL pointer.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0225",
+    "severity": "Medium",
+    "description": "Ansible implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Ansible",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0412",
+    "severity": "Low",
+    "description": "OpenVPN does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "OpenVPN",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0105",
+    "severity": "Critical",
+    "description": "A command injection flaw in  Joomla permits remote authenticated users to execute arbitrary system commands with elevated privileges through the dashboard interface.",
+    "product": " Joomla",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2005-0891",
+    "severity": "High",
+    "description": "Double free vulnerability in gtk 2 (gtk2) before 2.2.4 allows remote attackers to cause a denial of service (crash) via a crafted BMP image.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0387",
+    "severity": "Medium",
+    "description": "Kubernetes does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Kubernetes",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0463",
+    "severity": "Low",
+    "description": "A documentation error in WebSphere security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "WebSphere",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2005-1306",
+    "severity": "High",
+    "description": "The Adobe Reader control in Adobe Reader and Acrobat 7.0 and 7.0.1 allows remote attackers to determine the existence of files via Javascript containing XML script, aka the \"XML External Entity vulnerability.\"",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0184",
+    "severity": "High",
+    "description": "OpenWrt contains an open redirect vulnerability that allows attackers to redirect users to malicious websites through crafted URLs.",
+    "product": "OpenWrt",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0305",
+    "severity": "Medium",
+    "description": "An integer overflow in GitHub Enterprise can lead to unexpected behavior in the search functionality when processing large input values.",
+    "product": "GitHub Enterprise",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0460",
+    "severity": "Low",
+    "description": "SonarQube allows password autocomplete in the input sanitiser, which may facilitate credential theft on shared computers.",
+    "product": "SonarQube",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0190",
+    "severity": "High",
+    "description": "Logstash fails to properly validate certificates in the network listener, allowing man-in-the-middle attackers to intercept and modify encrypted communications.",
+    "product": "Logstash",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0201",
+    "severity": "High",
+    "description": "A stored cross-site scripting vulnerability in Terraform permits persistent injection of malicious scripts that execute whenever affected pages are loaded.",
+    "product": "Terraform",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2004-1002",
+    "severity": "High",
+    "description": "Integer underflow in pppd in cbcp.c for ppp 2.4.1 allows remote attackers to cause a denial of service (daemon crash) via a CBCP packet with an invalid length value that causes pppd to access an incorrect memory location.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0275",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Fluentd allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Fluentd",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0234",
+    "severity": "Medium",
+    "description": "Grafana does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Grafana",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2001-1546",
+    "severity": "High",
+    "description": "Pathways Homecare 6.5 uses weak encryption for user names and passwords, which allows local users to gain privileges by recovering the passwords from the pwhc.ini file.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0133",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in OpenSSH allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "OpenSSH",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0128",
+    "severity": "Critical",
+    "description": "A command injection flaw in  LibreNMS permits remote authenticated users to execute arbitrary system commands with elevated privileges through the backup restore interface.",
+    "product": " LibreNMS",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0231",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in AWS EC2 logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "AWS EC2",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0182",
+    "severity": "High",
+    "description": "Apache Pulsar fails to properly validate certificates in the session manager, allowing man-in-the-middle attackers to intercept and modify encrypted communications.",
+    "product": "Apache Pulsar",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0452",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in D-Link routers reduce defense-in-depth against potential injection attacks.",
+    "product": "D-Link routers",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2005-0877",
+    "severity": "High",
+    "description": "Dnsmasq before 2.21 allows remote attackers to poison the DNS cache via answers to queries that were not made by Dnsmasq.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0304",
+    "severity": "Medium",
+    "description": "An integer overflow in Mocha can lead to unexpected behavior in the user management panel when processing large input values.",
+    "product": "Mocha",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0301",
+    "severity": "Medium",
+    "description": "An integer overflow in Apache ActiveMQ can lead to unexpected behavior in the theme engine when processing large input values.",
+    "product": "Apache ActiveMQ",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0302",
+    "severity": "Medium",
+    "description": "A timing side-channel in Adminer allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Adminer",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0350",
+    "severity": "Medium",
+    "description": "Suricata allows local users to read sensitive files through the metrics collector due to improper permission settings on configuration directories.",
+    "product": "Suricata",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0407",
+    "severity": "Low",
+    "description": "An insecure default configuration in Black Duck enables unnecessary services that expand the attack surface.",
+    "product": "Black Duck",
+    "year": 2023,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0303",
+    "severity": "Medium",
+    "description": "An integer overflow in tcpdump can lead to unexpected behavior in the cache manager when processing large input values.",
+    "product": "tcpdump",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0208",
+    "severity": "Medium",
+    "description": "An integer overflow in Prometheus can lead to unexpected behavior in the cache manager when processing large input values.",
+    "product": "Prometheus",
+    "year": 2021,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2000-0342",
+    "severity": "High",
+    "description": "Eudora 4.x allows remote attackers to bypass the user warning for executable attachments such as .exe, .com, and .bat by using a .lnk file that refers to the attachment, aka \"Stealth Attachment.\"",
+    "source": "nvd_api",
+    "year": 2000
+  },
+  {
+    "cve_id": "CVE-2021-0259",
+    "severity": "Medium",
+    "description": "Snyk implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Snyk",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0469",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in JBoss reduce defense-in-depth against potential injection attacks.",
+    "product": "JBoss",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0499",
+    "severity": "Low",
+    "description": "Fortinet FortiOS does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Fortinet FortiOS",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0429",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Open Policy Agent could allow client-side scripts to access session tokens.",
+    "product": "Open Policy Agent",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2002-2323",
+    "severity": "High",
+    "description": "Sun PC NetLink 1.0 through 1.2 does not properly set the access control list (ACL) for files and directories that use symbolic links and have been restored from backup, which could allow local or remote attackers to bypass intended access restrictions.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0306",
+    "severity": "Medium",
+    "description": "MySQL transmits sensitive data over unencrypted channels in the import/export feature, exposing it to network eavesdropping.",
+    "product": "MySQL",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0219",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in KVM allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "KVM",
+    "year": 2021,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0267",
+    "severity": "Medium",
+    "description": "Auditbeat transmits sensitive data over unencrypted channels in the configuration parser, exposing it to network eavesdropping.",
+    "product": "Auditbeat",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0492",
+    "severity": "Low",
+    "description": "Pritunl contains a minor information disclosure in the message queue where version numbers are exposed in HTTP response headers.",
+    "product": "Pritunl",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2002-0051",
+    "severity": "High",
+    "description": "Windows 2000 allows local users to prevent the application of new group policy settings by opening Group Policy files with exclusive-read access.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0273",
+    "severity": "Medium",
+    "description": "OPNsense transmits sensitive data over unencrypted channels in the web interface, exposing it to network eavesdropping.",
+    "product": "OPNsense",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0129",
+    "severity": "Critical",
+    "description": "Django allows unauthenticated remote code execution via the web interface due to improper input validation. Attackers can exploit this flaw to gain root privileges on affected systems.",
+    "product": "Django",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0405",
+    "severity": "Low",
+    "description": "Chef allows password autocomplete in the backup utility, which may facilitate credential theft on shared computers.",
+    "product": "Chef",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0447",
+    "severity": "Low",
+    "description": "A verbose error message in OpenVPN reveals the underlying database type and version information to unauthenticated users.",
+    "product": "OpenVPN",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0229",
+    "severity": "Medium",
+    "description": "Bind allows local users to read sensitive files through the metrics collector due to improper permission settings on configuration directories.",
+    "product": "Bind",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0177",
+    "severity": "High",
+    "description": "Storm allows privilege escalation via the configuration parser due to improper access controls. A local attacker can exploit this to gain elevated permissions on the system.",
+    "product": "Storm",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0223",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Perforce logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Perforce",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0293",
+    "severity": "Medium",
+    "description": "Fastly transmits sensitive data over unencrypted channels in the API endpoint, exposing it to network eavesdropping.",
+    "product": "Fastly",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0121",
+    "severity": "Critical",
+    "description": "Citrix ADC allows unauthenticated remote code execution via the network listener due to improper input validation. Attackers can exploit this flaw to gain root privileges on affected systems.",
+    "product": "Citrix ADC",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0468",
+    "severity": "Low",
+    "description": "An insecure default configuration in Nmap enables unnecessary services that expand the attack surface.",
+    "product": "Nmap",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0269",
+    "severity": "Medium",
+    "description": "Endian does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Endian",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0104",
+    "severity": "Critical",
+    "description": "A critical SQL injection vulnerability in Slack enables attackers to extract sensitive database contents, modify data, and potentially execute operating system commands.",
+    "product": "Slack",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0194",
+    "severity": "High",
+    "description": "A cross-site scripting (XSS) vulnerability in Checkmarx allows remote attackers to inject malicious scripts into web pages viewed by other users, potentially stealing session tokens.",
+    "product": "Checkmarx",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0385",
+    "severity": "Medium",
+    "description": "Couchbase does not properly sanitize user input in the input sanitiser, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Couchbase",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0122",
+    "severity": "Critical",
+    "description": "Google Cloud Platform contains a remote code execution vulnerability in the API endpoint that allows an attacker to execute arbitrary code via crafted ICMP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Google Cloud Platform",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0138",
+    "severity": "Critical",
+    "description": "OSSEC contains a server-side request forgery (SSRF) vulnerability in the logging subsystem that enables attackers to probe internal network services and access restricted resources.",
+    "product": "OSSEC",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0324",
+    "severity": "Medium",
+    "description": "Kubernetes transmits sensitive data over unencrypted channels in the theme engine, exposing it to network eavesdropping.",
+    "product": "Kubernetes",
+    "year": 2024,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0198",
+    "severity": "High",
+    "description": "A stored cross-site scripting vulnerability in Endian permits persistent injection of malicious scripts that execute whenever affected pages are loaded.",
+    "product": "Endian",
+    "year": 2024,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0341",
+    "severity": "Medium",
+    "description": "A timing side-channel in IIS allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "IIS",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0424",
+    "severity": "Low",
+    "description": "MySQL does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "MySQL",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0207",
+    "severity": "Medium",
+    "description": "Xen does not properly sanitize user input in the input sanitiser, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Xen",
+    "year": 2022,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0358",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Neo4j allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Neo4j",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2002-0485",
+    "severity": "High",
+    "description": "Norton Anti-Virus (NAV) allows remote attackers to bypass content filtering via attachments whose Content-Type and Content-Disposition headers are mixed upper and lower case, which is ignored by some mail clients.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0297",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Cypress allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Cypress",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2004-0689",
+    "severity": "High",
+    "description": "KDE before 3.3.0 does not properly handle when certain symbolic links point to \"stale\" locations, which could allow local users to create or truncate arbitrary files.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0243",
+    "severity": "Medium",
+    "description": "Elasticsearch implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Elasticsearch",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0270",
+    "severity": "Medium",
+    "description": "MikroTik RouterOS transmits sensitive data over unencrypted channels in the scheduler, exposing it to network eavesdropping.",
+    "product": "MikroTik RouterOS",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0296",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in DD-WRT allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "DD-WRT",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2002-1800",
+    "severity": "High",
+    "description": "phpRank 1.8 stores the administrative password in plaintext on the server and in the \"ap\" cookie, which allows remote attackers to retrieve the administrative password.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0464",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Smoothwall reduce defense-in-depth against potential injection attacks.",
+    "product": "Smoothwall",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2002-1697",
+    "severity": "High",
+    "description": "Electronic Code Book (ECB) mode in VTun 2.0 through 2.5 uses a weak encryption algorithm that produces the same ciphertext from the same plaintext blocks, which could allow remote attackers to gain sensitive information.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2003-0578",
+    "severity": "High",
+    "description": "cci_dir in IBM U2 UniVerse 10.0.0.9 and earlier creates hard links and unlinks files as root, which allows local users to gain privileges by deleting and overwriting arbitrary files.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0247",
+    "severity": "Medium",
+    "description": "A timing side-channel in Metasploit allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Metasploit",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0132",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in Hadoop allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "Hadoop",
+    "year": 2022,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0220",
+    "severity": "Medium",
+    "description": "Filebeat does not properly sanitize user input in the certificate validator, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Filebeat",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0433",
+    "severity": "Low",
+    "description": "Bitbucket contains a minor information disclosure in the message queue where version numbers are exposed in HTTP response headers.",
+    "product": "Bitbucket",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0420",
+    "severity": "Low",
+    "description": "A verbose error message in Gitea reveals the underlying database type and version information to unauthenticated users.",
+    "product": "Gitea",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0168",
+    "severity": "High",
+    "description": "Artifactory contains an information disclosure flaw in the cache manager that exposes sensitive configuration data, including database credentials, to unauthenticated users.",
+    "product": "Artifactory",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0250",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Microsoft Exchange allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Microsoft Exchange",
+    "year": 2022,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0443",
+    "severity": "Low",
+    "description": "Keycloak allows password autocomplete in the configuration parser, which may facilitate credential theft on shared computers.",
+    "product": "Keycloak",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0345",
+    "severity": "Medium",
+    "description": "Electron transmits sensitive data over unencrypted channels in the notification service, exposing it to network eavesdropping.",
+    "product": "Electron",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0151",
+    "severity": "Critical",
+    "description": "InfluxDB contains an authentication bypass vulnerability in the theme engine that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "InfluxDB",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0155",
+    "severity": "Critical",
+    "description": "IPFire is affected by a deserialization vulnerability that allows unauthenticated remote attackers to execute arbitrary code by sending specially crafted requests to the the user management panel endpoint.",
+    "product": "IPFire",
+    "year": 2021,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0260",
+    "severity": "Medium",
+    "description": "Tomcat does not properly sanitize user input in the input sanitiser, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Tomcat",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0222",
+    "severity": "Medium",
+    "description": "SonarQube does not properly sanitize user input in the web interface, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "SonarQube",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2004-1714",
+    "severity": "High",
+    "description": "BlackICE PC Protection and Server Protection installs (1) firewall.ini, (2) blackice.ini, (3) sigs.ini and (4) protect.ini with Everyone Full Control permissions, which allows local users to cause a denial of service (crash) or modify configuration, as demonstrated by modifying firewall.ini to contain a large firewall rule.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0199",
+    "severity": "High",
+    "description": "Unbound exposes sensitive information through error messages and debug endpoints that reveal internal file paths and system configuration.",
+    "product": "Unbound",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0214",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Hyper-V logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Hyper-V",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0169",
+    "severity": "High",
+    "description": "Cassandra contains an open redirect vulnerability that allows attackers to redirect users to malicious websites through crafted URLs.",
+    "product": "Cassandra",
+    "year": 2024,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2004-2172",
+    "severity": "High",
+    "description": "EarlyImpact ProductCart uses a weak encryption scheme to encrypt passwords, which allows remote attackers to obtain the password via a chosen plaintext attack.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0249",
+    "severity": "Medium",
+    "description": "Neo4j allows local users to read sensitive files through the cache manager due to improper permission settings on configuration directories.",
+    "product": "Neo4j",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0265",
+    "severity": "Medium",
+    "description": "An integer overflow in pytest can lead to unexpected behavior in the authentication module when processing large input values.",
+    "product": "pytest",
+    "year": 2022,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0139",
+    "severity": "Critical",
+    "description": "F5 BIG-IP contains a remote code execution vulnerability in the input sanitiser that allows an attacker to execute arbitrary code via crafted TCP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "F5 BIG-IP",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2001-1452",
+    "severity": "High",
+    "description": "By default, DNS servers on Windows NT 4.0 and Windows 2000 Server cache glue records received from non-delegated name servers, which allows remote attackers to poison the DNS cache via spoofed DNS responses.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2002-1844",
+    "severity": "High",
+    "description": "Microsoft Windows Media Player (WMP) 6.3, when installed on Solaris, installs executables with world-writable permissions, which allows local users to delete or modify the executables to gain privileges.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0251",
+    "severity": "Medium",
+    "description": "SaltStack transmits sensitive data over unencrypted channels in the search functionality, exposing it to network eavesdropping.",
+    "product": "SaltStack",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0175",
+    "severity": "High",
+    "description": "A denial of service vulnerability in Nagios can be triggered by sending specially crafted UDP requests, causing the application to become unresponsive.",
+    "product": "Nagios",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0329",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Apache Pulsar allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Apache Pulsar",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0458",
+    "severity": "Low",
+    "description": "A documentation error in Metricbeat security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "Metricbeat",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2001-1471",
+    "severity": "High",
+    "description": "prefs.php in phpBB 1.4.0 and earlier allows remote authenticated users to execute arbitrary PHP code via an invalid language value, which prevents the variables (1) $l_statsblock in prefs.php or (2) $l_privnotify in auth.php from being properly initialized, which can be modified by the user and later used in an eval statement.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0195",
+    "severity": "High",
+    "description": "A cryptographic weakness in MikroTik RouterOS uses insufficiently random values for session tokens, enabling attackers to predict and hijack user sessions.",
+    "product": "MikroTik RouterOS",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0357",
+    "severity": "Medium",
+    "description": "Apache ActiveMQ does not properly sanitize user input in the report generator, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Apache ActiveMQ",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0477",
+    "severity": "Low",
+    "description": "A verbose error message in MongoDB reveals the underlying database type and version information to unauthenticated users.",
+    "product": "MongoDB",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0119",
+    "severity": "Critical",
+    "description": "OWASP ZAP contains an authentication bypass vulnerability in the logging subsystem that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "OWASP ZAP",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0394",
+    "severity": "Low",
+    "description": "CoreDNS does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "CoreDNS",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0398",
+    "severity": "Low",
+    "description": "Citrix ADC allows password autocomplete in the report generator, which may facilitate credential theft on shared computers.",
+    "product": "Citrix ADC",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0403",
+    "severity": "Low",
+    "description": "A documentation error in PostgreSQL security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "PostgreSQL",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0316",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Logstash allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Logstash",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2002-0844",
+    "severity": "High",
+    "description": "Off-by-one overflow in the CVS PreservePermissions of rcs.c for CVSD before 1.11.2 allows local users to execute arbitrary code.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2003-0625",
+    "severity": "High",
+    "description": "Off-by-one error in certain versions of xfstt allows remote attackers to read potentially sensitive memory via a malformed client request in the connection handshake, which leaks the memory in the server's response.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0472",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Apache ActiveMQ could allow client-side scripts to access session tokens.",
+    "product": "Apache ActiveMQ",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0474",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in RabbitMQ reduce defense-in-depth against potential injection attacks.",
+    "product": "RabbitMQ",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0221",
+    "severity": "Medium",
+    "description": "Apache Pulsar does not properly sanitize user input in the message queue, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Apache Pulsar",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0252",
+    "severity": "Medium",
+    "description": "An integer overflow in Confluence can lead to unexpected behavior in the theme engine when processing large input values.",
+    "product": "Confluence",
+    "year": 2022,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0318",
+    "severity": "Medium",
+    "description": "A timing side-channel in SoftEther allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "SoftEther",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0496",
+    "severity": "Low",
+    "description": "JUnit allows password autocomplete in the API endpoint, which may facilitate credential theft on shared computers.",
+    "product": "JUnit",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0371",
+    "severity": "Medium",
+    "description": " phpMyAdmin implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": " phpMyAdmin",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0380",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in ActiveMQ logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "ActiveMQ",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0153",
+    "severity": "Critical",
+    "description": "A heap-based buffer overflow in Splunk 11.0 allows remote attackers to execute arbitrary code through malformed MP4 files. This vulnerability is being actively exploited in the wild.",
+    "product": "Splunk",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0282",
+    "severity": "Medium",
+    "description": "JBoss transmits sensitive data over unencrypted channels in the event processor, exposing it to network eavesdropping.",
+    "product": "JBoss",
+    "year": 2023,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0244",
+    "severity": "Medium",
+    "description": "Harbor does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Harbor",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2005-2160",
+    "severity": "High",
+    "description": "IMail stores usernames and passwords in cleartext in a cookie, which allows remote attackers to obtain sensitive information.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0493",
+    "severity": "Low",
+    "description": "OpenSSH allows password autocomplete in the event processor, which may facilitate credential theft on shared computers.",
+    "product": "OpenSSH",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2004-0210",
+    "severity": "High",
+    "description": "The POSIX component of Microsoft Windows NT and Windows 2000 allows local users to execute arbitrary code via certain parameters, possibly by modifying message length values and causing a buffer overflow.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0462",
+    "severity": "Low",
+    "description": "OPNsense allows password autocomplete in the file upload handler, which may facilitate credential theft on shared computers.",
+    "product": "OPNsense",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0235",
+    "severity": "Medium",
+    "description": "Kubernetes implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Kubernetes",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2004-2397",
+    "severity": "High",
+    "description": "The web-based Management Console in Blue Coat Security Gateway OS 3.0 through 3.1.3.13 and 3.2.1, when importing a private key, stores the key and its passphrase in plaintext in a log file, which allows attackers to steal digital certificates.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0348",
+    "severity": "Medium",
+    "description": "A timing side-channel in PowerDNS allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "PowerDNS",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0362",
+    "severity": "Medium",
+    "description": "Consul transmits sensitive data over unencrypted channels in the file upload handler, exposing it to network eavesdropping.",
+    "product": "Consul",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0373",
+    "severity": "Medium",
+    "description": "Veracode transmits sensitive data over unencrypted channels in the API endpoint, exposing it to network eavesdropping.",
+    "product": "Veracode",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0479",
+    "severity": "Low",
+    "description": "Calico does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Calico",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0311",
+    "severity": "Medium",
+    "description": "Apache Pulsar implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Apache Pulsar",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2005-0490",
+    "severity": "High",
+    "description": "Multiple stack-based buffer overflows in libcURL and cURL 7.12.1, and possibly other versions, allow remote malicious web servers to execute arbitrary code via base64 encoded replies that exceed the intended buffer lengths when decoded, which is not properly handled by (1) the Curl_input_ntlm function in http_ntlm.c during NTLM authentication or (2) the Curl_krb_kauth and krb4_auth functions in krb4.c during Kerberos authentication.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0176",
+    "severity": "High",
+    "description": "Node.js allows privilege escalation via the plugin system due to improper access controls. A local attacker can exploit this to gain elevated permissions on the system.",
+    "product": "Node.js",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2001-0006",
+    "severity": "High",
+    "description": "The Winsock2ProtocolCatalogMutex mutex in Windows NT 4.0 has inappropriate Everyone/Full Control permissions, which allows local users to modify the permissions to \"No Access\" and disable Winsock network connectivity to cause a denial of service, aka the \"Winsock Mutex\" vulnerability.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0313",
+    "severity": "Medium",
+    "description": "Vault allows local users to read sensitive files through the file upload handler due to improper permission settings on configuration directories.",
+    "product": "Vault",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0135",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in Travis CI allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "Travis CI",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0382",
+    "severity": "Medium",
+    "description": "An integer overflow in Apache ActiveMQ can lead to unexpected behavior in the input sanitiser when processing large input values.",
+    "product": "Apache ActiveMQ",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0173",
+    "severity": "High",
+    "description": "pfSense fails to properly validate certificates in the certificate validator, allowing man-in-the-middle attackers to intercept and modify encrypted communications.",
+    "product": "pfSense",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0368",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Endian allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Endian",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0391",
+    "severity": "Low",
+    "description": "A documentation error in Selenium security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "Selenium",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0163",
+    "severity": "High",
+    "description": "Slack contains an open redirect vulnerability that allows attackers to redirect users to malicious websites through crafted URLs.",
+    "product": "Slack",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2002-1745",
+    "severity": "High",
+    "description": "Off-by-one error in the CodeBrws.asp sample script in Microsoft IIS 5.0 allows remote attackers to view the source code for files with extensions containing with one additional character after .html, .htm, .asp, or .inc, such as .aspx files.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0150",
+    "severity": "Critical",
+    "description": "An XML external entity (XXE) injection flaw in Magento allows remote attackers to read arbitrary files and conduct server-side request forgery attacks.",
+    "product": "Magento",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2002-0184",
+    "severity": "High",
+    "description": "Sudo before 1.6.6 contains an off-by-one error that can result in a heap-based buffer overflow that may allow local users to gain root privileges via special characters in the -p (prompt) argument, which are not properly expanded.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0449",
+    "severity": "Low",
+    "description": "A verbose error message in Dex reveals the underlying database type and version information to unauthenticated users.",
+    "product": "Dex",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0455",
+    "severity": "Low",
+    "description": "A documentation error in PowerDNS security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "PowerDNS",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0281",
+    "severity": "Medium",
+    "description": "An integer overflow in DD-WRT can lead to unexpected behavior in the theme engine when processing large input values.",
+    "product": "DD-WRT",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0110",
+    "severity": "Critical",
+    "description": "FreeIPA contains a remote code execution vulnerability in the web interface that allows an attacker to execute arbitrary code via crafted DNS requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "FreeIPA",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2002-2070",
+    "severity": "High",
+    "description": "SecureClean 3 build 2.0 does not clear Windows alternate data streams that are attached to files on NTFS file systems, which allows attackers to recover sensitive information that was supposed to be deleted.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2004-0217",
+    "severity": "High",
+    "description": "The LiveUpdate capability (liveupdate.sh) in Symantec AntiVirus Scan Engine 4.0 and 4.3 for Red Hat Linux allows local users to create or append to arbitrary files via a symlink attack on /tmp/LiveUpdate.log.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-1999-0236",
+    "severity": "High",
+    "description": "ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2021-0372",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Istio allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Istio",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2002-2068",
+    "severity": "High",
+    "description": "Eraser 5.3 does not clear Windows alternate data streams that are attached to files on NTFS file systems, which allows attackers to recover sensitive information that was supposed to be deleted.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0392",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in IIS reduce defense-in-depth against potential injection attacks.",
+    "product": "IIS",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0290",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in TP-Link routers allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "TP-Link routers",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0112",
+    "severity": "Critical",
+    "description": "A heap-based buffer overflow in Varnish 24.10 allows remote attackers to execute arbitrary code through malformed PDF files. This vulnerability is being actively exploited in the wild.",
+    "product": "Varnish",
+    "year": 2021,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0432",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Kafka reduce defense-in-depth against potential injection attacks.",
+    "product": "Kafka",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0102",
+    "severity": "Critical",
+    "description": "Filebeat contains an authentication bypass vulnerability in the event processor that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Filebeat",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0473",
+    "severity": "Low",
+    "description": "KVM does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "KVM",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0498",
+    "severity": "Low",
+    "description": "A documentation error in Git security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "Git",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0408",
+    "severity": "Low",
+    "description": "VMware vSphere contains a minor information disclosure in the API endpoint where version numbers are exposed in HTTP response headers.",
+    "product": "VMware vSphere",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0279",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in RabbitMQ allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "RabbitMQ",
+    "year": 2021,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0422",
+    "severity": "Low",
+    "description": "An insecure default configuration in Django enables unnecessary services that expand the attack surface.",
+    "product": "Django",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2003-1048",
+    "severity": "High",
+    "description": "Double free vulnerability in mshtml.dll for certain versions of Internet Explorer 6.x allows remote attackers to cause a denial of service (application crash) via a malformed GIF image.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0411",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Tomcat could allow client-side scripts to access session tokens.",
+    "product": "Tomcat",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0149",
+    "severity": "Critical",
+    "description": "Xen contains a remote code execution vulnerability in the logging subsystem that allows an attacker to execute arbitrary code via crafted SSH requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Xen",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0274",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in RabbitMQ allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "RabbitMQ",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0266",
+    "severity": "Medium",
+    "description": "RedisInsight implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "RedisInsight",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0456",
+    "severity": "Low",
+    "description": "Bamboo does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "Bamboo",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0500",
+    "severity": "Low",
+    "description": "An insecure default configuration in Prometheus enables unnecessary services that expand the attack surface.",
+    "product": "Prometheus",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0236",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Nmap allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Nmap",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0363",
+    "severity": "Medium",
+    "description": "PostgreSQL transmits sensitive data over unencrypted channels in the web interface, exposing it to network eavesdropping.",
+    "product": "PostgreSQL",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0206",
+    "severity": "Medium",
+    "description": "Artifactory allows local users to read sensitive files through the backup utility due to improper permission settings on configuration directories.",
+    "product": "Artifactory",
+    "year": 2021,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0323",
+    "severity": "Medium",
+    "description": "TP-Link routers allows local users to read sensitive files through the certificate validator due to improper permission settings on configuration directories.",
+    "product": "TP-Link routers",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0314",
+    "severity": "Medium",
+    "description": "Suricata does not properly sanitize user input in the database connector, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Suricata",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2003-1013",
+    "severity": "High",
+    "description": "The Q.931 dissector in Ethereal before 0.10.0, and Tethereal, allows remote attackers to cause a denial of service (crash) via a malformed Q.931, which triggers a null dereference.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0410",
+    "severity": "Low",
+    "description": "Weave Net allows password autocomplete in the session manager, which may facilitate credential theft on shared computers.",
+    "product": "Weave Net",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0204",
+    "severity": "Medium",
+    "description": "Filebeat does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Filebeat",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0292",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Flink allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Flink",
+    "year": 2021,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0239",
+    "severity": "Medium",
+    "description": "An integer overflow in Fastly can lead to unexpected behavior in the session manager when processing large input values.",
+    "product": "Fastly",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0374",
+    "severity": "Medium",
+    "description": "Keycloak does not properly sanitize user input in the plugin system, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Keycloak",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0480",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Nexus reduce defense-in-depth against potential injection attacks.",
+    "product": "Nexus",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0196",
+    "severity": "High",
+    "description": "A race condition in Flink allows local users to gain privileges by exploiting a window between security checks and resource access.",
+    "product": "Flink",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0326",
+    "severity": "Medium",
+    "description": "OWASP ZAP does not properly sanitize user input in the logging subsystem, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "OWASP ZAP",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0370",
+    "severity": "Medium",
+    "description": "An integer overflow in Hyper-V can lead to unexpected behavior in the search functionality when processing large input values.",
+    "product": "Hyper-V",
+    "year": 2023,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0389",
+    "severity": "Medium",
+    "description": "Confluence does not properly sanitize user input in the web interface, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Confluence",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2002-1872",
+    "severity": "High",
+    "description": "Microsoft SQL Server 6.0 through 2000, with SQL Authentication enabled, uses weak password encryption (XOR), which allows remote attackers to sniff and decrypt the password.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0340",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in MikroTik RouterOS logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "MikroTik RouterOS",
+    "year": 2021,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0241",
+    "severity": "Medium",
+    "description": "A timing side-channel in RabbitMQ allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "RabbitMQ",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0369",
+    "severity": "Medium",
+    "description": "Adminer does not properly sanitize user input in the backup utility, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Adminer",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0361",
+    "severity": "Medium",
+    "description": "Bitbucket implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Bitbucket",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2001-0830",
+    "severity": "High",
+    "description": "6tunnel 0.08 and earlier does not properly close sockets that were initiated by a client, which allows remote attackers to cause a denial of service (resource exhaustion) by repeatedly connecting to and disconnecting from the server.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0286",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in  ASUS routers logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": " ASUS routers",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0495",
+    "severity": "Low",
+    "description": "WireGuard does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "WireGuard",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0258",
+    "severity": "Medium",
+    "description": "An integer overflow in React can lead to unexpected behavior in the input sanitiser when processing large input values.",
+    "product": "React",
+    "year": 2023,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0289",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Confluence allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Confluence",
+    "year": 2021,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0437",
+    "severity": "Low",
+    "description": "Adminer allows password autocomplete in the web interface, which may facilitate credential theft on shared computers.",
+    "product": "Adminer",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0339",
+    "severity": "Medium",
+    "description": "Vault transmits sensitive data over unencrypted channels in the web interface, exposing it to network eavesdropping.",
+    "product": "Vault",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0360",
+    "severity": "Medium",
+    "description": "OWASP ZAP does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "OWASP ZAP",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0174",
+    "severity": "High",
+    "description": "OSSEC contains an open redirect vulnerability that allows attackers to redirect users to malicious websites through crafted URLs.",
+    "product": "OSSEC",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0101",
+    "severity": "Critical",
+    "description": "Open Policy Agent contains a remote code execution vulnerability in the backup utility that allows an attacker to execute arbitrary code via crafted SOAP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Open Policy Agent",
+    "year": 2024,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-1999-1549",
+    "severity": "High",
+    "description": "Lynx 2.x does not properly distinguish between internal and external HTML, which may allow a local attacker to read a \"secure\" hidden form value from a temporary file and craft a LYNXOPTIONS: URL that causes Lynx to modify the user's configuration file and execute commands.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2021-0481",
+    "severity": "Low",
+    "description": "Snort allows password autocomplete in the theme engine, which may facilitate credential theft on shared computers.",
+    "product": "Snort",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0280",
+    "severity": "Medium",
+    "description": "Travis CI does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Travis CI",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0355",
+    "severity": "Medium",
+    "description": "nginx does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "nginx",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0227",
+    "severity": "Medium",
+    "description": "OWASP ZAP implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "OWASP ZAP",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0215",
+    "severity": "Medium",
+    "description": "OpenWrt implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "OpenWrt",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2002-0969",
+    "severity": "High",
+    "description": "Buffer overflow in MySQL daemon (mysqld) before 3.23.50, and 4.0 beta before 4.02, on the Win32 platform, allows local users to execute arbitrary code via a long \"datadir\" parameter in the my.ini initialization file, whose permissions on Windows allow Full Control to the Everyone group.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0205",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in  LibreNMS allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": " LibreNMS",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0136",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in WireGuard allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "WireGuard",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0390",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in ClickHouse logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "ClickHouse",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0393",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Weave Net could allow client-side scripts to access session tokens.",
+    "product": "Weave Net",
+    "year": 2022,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0146",
+    "severity": "Critical",
+    "description": "Hibernate contains a server-side request forgery (SSRF) vulnerability in the backup utility that enables attackers to probe internal network services and access restricted resources.",
+    "product": "Hibernate",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0435",
+    "severity": "Low",
+    "description": "DD-WRT logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "DD-WRT",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0400",
+    "severity": "Low",
+    "description": "Docker does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Docker",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0264",
+    "severity": "Medium",
+    "description": "Metricbeat implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Metricbeat",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0331",
+    "severity": "Medium",
+    "description": "Magento does not properly sanitize user input in the session manager, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Magento",
+    "year": 2024,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0440",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in JBoss reduce defense-in-depth against potential injection attacks.",
+    "product": "JBoss",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2002-1810",
+    "severity": "High",
+    "description": "D-Link DWL-900AP+ Access Point 2.1 and 2.2 allows remote attackers to access the TFTP server without authentication and read the config.img file, which contains sensitive information such as the administrative password, the WEP encryption keys, and network configuration information.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0418",
+    "severity": "Low",
+    "description": "An insecure default configuration in pgAdmin enables unnecessary services that expand the attack surface.",
+    "product": "pgAdmin",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0210",
+    "severity": "Medium",
+    "description": "A timing side-channel in Ansible allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Ansible",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0233",
+    "severity": "Medium",
+    "description": "An integer overflow in TeamCity can lead to unexpected behavior in the certificate validator when processing large input values.",
+    "product": "TeamCity",
+    "year": 2022,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0307",
+    "severity": "Medium",
+    "description": "pfSense does not properly sanitize user input in the metrics collector, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "pfSense",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0116",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in WireGuard allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "WireGuard",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0421",
+    "severity": "Low",
+    "description": "RedisInsight logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "RedisInsight",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0300",
+    "severity": "Medium",
+    "description": "Filebeat implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Filebeat",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0471",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in SonarQube could allow client-side scripts to access session tokens.",
+    "product": "SonarQube",
+    "year": 2022,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0109",
+    "severity": "Critical",
+    "description": "Fortinet FortiOS contains an authentication bypass vulnerability in the logging subsystem that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Fortinet FortiOS",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0263",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in OPNsense allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "OPNsense",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0192",
+    "severity": "High",
+    "description": "A stored cross-site scripting vulnerability in Citrix ADC permits persistent injection of malicious scripts that execute whenever affected pages are loaded.",
+    "product": "Citrix ADC",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0485",
+    "severity": "Low",
+    "description": "An insecure default configuration in Apache Spark enables unnecessary services that expand the attack surface.",
+    "product": "Apache Spark",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0308",
+    "severity": "Medium",
+    "description": "VirtualBox does not properly sanitize user input in the file upload handler, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "VirtualBox",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0187",
+    "severity": "High",
+    "description": "Chef exposes sensitive information through error messages and debug endpoints that reveal internal file paths and system configuration.",
+    "product": "Chef",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0482",
+    "severity": "Low",
+    "description": "Dex contains a minor information disclosure in the logging subsystem where version numbers are exposed in HTTP response headers.",
+    "product": "Dex",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0161",
+    "severity": "High",
+    "description": "OpenSSH contains an open redirect vulnerability that allows attackers to redirect users to malicious websites through crafted URLs.",
+    "product": "OpenSSH",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2005-0772",
+    "severity": "High",
+    "description": "VERITAS Backup Exec 9.0 through 10.0 for Windows Servers, and 9.0.4019 through 9.1.307 for Netware, allows remote attackers to cause a denial of service (Remote Agent crash) via (1) a crafted packet in NDMLSRVR.DLL or (2) a request packet with an invalid (non-0) \"Error Status\" value, which triggers a null dereference.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0347",
+    "severity": "Medium",
+    "description": "An integer overflow in Drupal can lead to unexpected behavior in the file upload handler when processing large input values.",
+    "product": "Drupal",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0335",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Arista EOS allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Arista EOS",
+    "year": 2023,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0359",
+    "severity": "Medium",
+    "description": "Endian does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Endian",
+    "year": 2024,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0475",
+    "severity": "Low",
+    "description": "Perforce contains a minor information disclosure in the user management panel where version numbers are exposed in HTTP response headers.",
+    "product": "Perforce",
+    "year": 2022,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0312",
+    "severity": "Medium",
+    "description": "JUnit allows local users to read sensitive files through the theme engine due to improper permission settings on configuration directories.",
+    "product": "JUnit",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2000-0499",
+    "severity": "High",
+    "description": "The default configuration of BEA WebLogic 3.1.8 through 4.5.1 allows a remote attacker to view source code of a JSP program by requesting a URL which provides the JSP extension in upper case.",
+    "source": "nvd_api",
+    "year": 2000
+  },
+  {
+    "cve_id": "CVE-2021-0395",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Vue.js could allow client-side scripts to access session tokens.",
+    "product": "Vue.js",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0200",
+    "severity": "High",
+    "description": "Mattermost contains an information disclosure flaw in the plugin system that exposes sensitive configuration data, including database credentials, to unauthenticated users.",
+    "product": "Mattermost",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2004-0174",
+    "severity": "High",
+    "description": "Apache 1.4.x before 1.3.30, and 2.0.x before 2.0.49, when using multiple listening sockets on certain platforms, allows remote attackers to cause a denial of service (blocked new connections) via a \"short-lived connection on a rarely-accessed listening socket.\"",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2000-0497",
+    "severity": "High",
+    "description": "IBM WebSphere server 3.0.2 allows a remote attacker to view source code of a JSP program by requesting a URL which provides the JSP extension in upper case.",
+    "source": "nvd_api",
+    "year": 2000
+  },
+  {
+    "cve_id": "CVE-2021-0379",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Veracode allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Veracode",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2002-1850",
+    "severity": "High",
+    "description": "mod_cgi in Apache 2.0.39 and 2.0.40 allows local users and possibly remote attackers to cause a denial of service (hang and memory consumption) by causing a CGI script to send a large amount of data to stderr, which results in a read/write deadlock between httpd and the CGI script.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2002-1910",
+    "severity": "High",
+    "description": "Click2Learn Ingenium Learning Management System 5.1 and 6.1 uses weak encryption for passwords (reversible algorithm), which allows attackers to obtain passwords.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0165",
+    "severity": "High",
+    "description": "A race condition in Seafile allows local users to gain privileges by exploiting a window between security checks and resource access.",
+    "product": "Seafile",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0226",
+    "severity": "Medium",
+    "description": "Docker allows local users to read sensitive files through the message queue due to improper permission settings on configuration directories.",
+    "product": "Docker",
+    "year": 2021,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0106",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in GlusterFS allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "GlusterFS",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0436",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Arista EOS reduce defense-in-depth against potential injection attacks.",
+    "product": "Arista EOS",
+    "year": 2024,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0228",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Apache HTTP Server logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Apache HTTP Server",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0115",
+    "severity": "Critical",
+    "description": "An XML external entity (XXE) injection flaw in Log4j allows remote attackers to read arbitrary files and conduct server-side request forgery attacks.",
+    "product": "Log4j",
+    "year": 2023,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0483",
+    "severity": "Low",
+    "description": "Black Duck does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "Black Duck",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0461",
+    "severity": "Low",
+    "description": "Hadoop does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "Hadoop",
+    "year": 2021,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0366",
+    "severity": "Medium",
+    "description": "An integer overflow in TimescaleDB can lead to unexpected behavior in the certificate validator when processing large input values.",
+    "product": "TimescaleDB",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0156",
+    "severity": "Critical",
+    "description": "Qt Framework contains a remote code execution vulnerability in the import/export feature that allows an attacker to execute arbitrary code via crafted ICMP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Qt Framework",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2001-1042",
+    "severity": "High",
+    "description": "Transsoft Broker 5.9.5.0 allows remote attackers to read arbitrary files and directories by uploading a .lnk (link) file that points to the target file.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0406",
+    "severity": "Low",
+    "description": "Snort does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "Snort",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0283",
+    "severity": "Medium",
+    "description": "A timing side-channel in Dex allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Dex",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0253",
+    "severity": "Medium",
+    "description": "Fastly implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Fastly",
+    "year": 2021,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0188",
+    "severity": "High",
+    "description": "Akamai CDN exposes sensitive information through error messages and debug endpoints that reveal internal file paths and system configuration.",
+    "product": "Akamai CDN",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0486",
+    "severity": "Low",
+    "description": "Bamboo allows password autocomplete in the import/export feature, which may facilitate credential theft on shared computers.",
+    "product": "Bamboo",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0438",
+    "severity": "Low",
+    "description": "A verbose error message in GlusterFS reveals the underlying database type and version information to unauthenticated users.",
+    "product": "GlusterFS",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0457",
+    "severity": "Low",
+    "description": "An insecure default configuration in Drone CI enables unnecessary services that expand the attack surface.",
+    "product": "Drone CI",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0338",
+    "severity": "Medium",
+    "description": "A timing side-channel in Fortify allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Fortify",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2004-0389",
+    "severity": "High",
+    "description": "RealNetworks Helix Universal Server 9.0.1 and 9.0.2 allows remote attackers to cause a denial of service (crash) via malformed requests that trigger a null dereference, as demonstrated using (1) GET_PARAMETER or (2) DESCRIBE requests.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2004-0213",
+    "severity": "High",
+    "description": "Utility Manager in Windows 2000 launches winhlp32.exe while Utility Manager is running with raised privileges, which allows local users to gain system privileges via a \"Shatter\" style attack that sends a Windows message to cause Utility Manager to launch winhlp32 by directly accessing the context sensitive help and bypassing the GUI, then sending another message to winhlp32 in order to open a user-selected file, a different vulnerability than CVE-2003-0908.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2004-0458",
+    "severity": "High",
+    "description": "mah-jong before 1.6.2 allows remote attackers to cause a denial of service (server crash) via a missing argument, which triggers a null pointer dereference.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2002-1372",
+    "severity": "High",
+    "description": "Common Unix Printing System (CUPS) 1.1.14 through 1.1.17 does not properly check the return values of various file and socket operations, which could allow a remote attacker to cause a denial of service (resource exhaustion) by causing file descriptors to be assigned and not released, as demonstrated by fanta.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0365",
+    "severity": "Medium",
+    "description": "Windows Server implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Windows Server",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0166",
+    "severity": "High",
+    "description": "A cryptographic weakness in Unity uses insufficiently random values for session tokens, enabling attackers to predict and hijack user sessions.",
+    "product": "Unity",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0448",
+    "severity": "Low",
+    "description": "JBoss does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "JBoss",
+    "year": 2021,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0425",
+    "severity": "Low",
+    "description": "MongoDB Compass does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "MongoDB Compass",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0494",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in RedisInsight could allow client-side scripts to access session tokens.",
+    "product": "RedisInsight",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0117",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in Apache Kafka allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "Apache Kafka",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0288",
+    "severity": "Medium",
+    "description": "Redis allows local users to read sensitive files through the backup utility due to improper permission settings on configuration directories.",
+    "product": "Redis",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0377",
+    "severity": "Medium",
+    "description": "Samba transmits sensitive data over unencrypted channels in the backup utility, exposing it to network eavesdropping.",
+    "product": "Samba",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0413",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Qt Framework could allow client-side scripts to access session tokens.",
+    "product": "Qt Framework",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0203",
+    "severity": "Medium",
+    "description": "React transmits sensitive data over unencrypted channels in the import/export feature, exposing it to network eavesdropping.",
+    "product": "React",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0416",
+    "severity": "Low",
+    "description": "Juniper JunOS does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Juniper JunOS",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0277",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in TimescaleDB allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "TimescaleDB",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-1999-1152",
+    "severity": "High",
+    "description": "Compaq/Microcom 6000 Access Integrator does not disconnect a client after a certain number of failed login attempts, which allows remote attackers to guess usernames or passwords via a brute force attack.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2021-0399",
+    "severity": "Low",
+    "description": "Jira contains a minor information disclosure in the import/export feature where version numbers are exposed in HTTP response headers.",
+    "product": "Jira",
+    "year": 2022,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0319",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in WordPress allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "WordPress",
+    "year": 2024,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0179",
+    "severity": "High",
+    "description": "Vue.js allows privilege escalation via the session manager due to improper access controls. A local attacker can exploit this to gain elevated permissions on the system.",
+    "product": "Vue.js",
+    "year": 2023,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0178",
+    "severity": "High",
+    "description": "A denial of service vulnerability in Selenium can be triggered by sending specially crafted UDP requests, causing the application to become unresponsive.",
+    "product": "Selenium",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0145",
+    "severity": "Critical",
+    "description": "Filebeat contains a server-side request forgery (SSRF) vulnerability in the metrics collector that enables attackers to probe internal network services and access restricted resources.",
+    "product": "Filebeat",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0299",
+    "severity": "Medium",
+    "description": "OpenVPN allows local users to read sensitive files through the file upload handler due to improper permission settings on configuration directories.",
+    "product": "OpenVPN",
+    "year": 2022,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0466",
+    "severity": "Low",
+    "description": "An insecure default configuration in Zabbix enables unnecessary services that expand the attack surface.",
+    "product": "Zabbix",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0352",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Open Policy Agent allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Open Policy Agent",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0160",
+    "severity": "Critical",
+    "description": "An XML external entity (XXE) injection flaw in pgAdmin allows remote attackers to read arbitrary files and conduct server-side request forgery attacks.",
+    "product": "pgAdmin",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2002-1949",
+    "severity": "High",
+    "description": "The Network Attached Storage (NAS) Administration Web Page for Iomega NAS A300U transmits passwords in cleartext, which allows remote attackers to sniff the administrative password.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0337",
+    "severity": "Medium",
+    "description": "Kubernetes implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Kubernetes",
+    "year": 2021,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0334",
+    "severity": "Medium",
+    "description": "Cilium does not properly sanitize user input in the API endpoint, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Cilium",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0217",
+    "severity": "Medium",
+    "description": "Hadoop allows local users to read sensitive files through the input sanitiser due to improper permission settings on configuration directories.",
+    "product": "Hadoop",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0327",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Microsoft Exchange allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Microsoft Exchange",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0257",
+    "severity": "Medium",
+    "description": "OpenSSL implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "OpenSSL",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0388",
+    "severity": "Medium",
+    "description": "ActiveMQ transmits sensitive data over unencrypted channels in the scheduler, exposing it to network eavesdropping.",
+    "product": "ActiveMQ",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2002-1721",
+    "severity": "High",
+    "description": "Off-by-one error in alterMIME 0.1.10 and 0.1.11 allows remote attackers to cause a denial of service (crash) via an x-header that causes snprintf overwrite the FFGET_FILE variable with a (null) byte.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0497",
+    "severity": "Low",
+    "description": "A documentation error in Mercurial security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "Mercurial",
+    "year": 2021,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0254",
+    "severity": "Medium",
+    "description": "TeamCity implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "TeamCity",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0181",
+    "severity": "High",
+    "description": "OSSEC contains an information disclosure flaw in the certificate validator that exposes sensitive configuration data, including database credentials, to unauthenticated users.",
+    "product": "OSSEC",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0103",
+    "severity": "Critical",
+    "description": "A command injection flaw in Seafile permits remote authenticated users to execute arbitrary system commands with elevated privileges through the plugin management interface.",
+    "product": "Seafile",
+    "year": 2022,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0419",
+    "severity": "Low",
+    "description": "Suricata logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "Suricata",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2004-1083",
+    "severity": "High",
+    "description": "Apache for Apple Mac OS X 10.2.8 and 10.3.6 restricts access to files in a case sensitive manner, but the Apple HFS+ filesystem accesses files in a case insensitive manner, which allows remote attackers to read .DS_Store files and files beginning with \".ht\" using alternate capitalization.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0111",
+    "severity": "Critical",
+    "description": "MySQL contains a remote code execution vulnerability in the file upload handler that allows an attacker to execute arbitrary code via crafted GraphQL requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "MySQL",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0148",
+    "severity": "Critical",
+    "description": "Netgear routers contains a remote code execution vulnerability in the message queue that allows an attacker to execute arbitrary code via crafted SOAP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Netgear routers",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0330",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Bitbucket logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Bitbucket",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0157",
+    "severity": "Critical",
+    "description": "Puppet contains an authentication bypass vulnerability in the web interface that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Puppet",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0470",
+    "severity": "Low",
+    "description": "A documentation error in JUnit security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": "JUnit",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0238",
+    "severity": "Medium",
+    "description": "MongoDB Compass does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "MongoDB Compass",
+    "year": 2024,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2002-2066",
+    "severity": "High",
+    "description": "BestCrypt BCWipe 1.0.7 and 2.0 through 2.35.1 does not clear Windows alternate data streams that are attached to files on NTFS file systems, which allows attackers to recover sensitive information that was supposed to be deleted.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0310",
+    "severity": "Medium",
+    "description": "An integer overflow in Ubiquiti EdgeOS can lead to unexpected behavior in the network listener when processing large input values.",
+    "product": "Ubiquiti EdgeOS",
+    "year": 2023,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0164",
+    "severity": "High",
+    "description": "Apache Flink fails to properly validate certificates in the backup utility, allowing man-in-the-middle attackers to intercept and modify encrypted communications.",
+    "product": "Apache Flink",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2001-0195",
+    "severity": "High",
+    "description": "sash before 3.4-4 in Debian GNU/Linux does not properly clone /etc/shadow, which makes it world-readable and could allow local users to gain privileges via password cracking.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0211",
+    "severity": "Medium",
+    "description": "Terraform implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "Terraform",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0123",
+    "severity": "Critical",
+    "description": "Apache ActiveMQ contains an authentication bypass vulnerability in the cache manager that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Apache ActiveMQ",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0242",
+    "severity": "Medium",
+    "description": "ownCloud does not properly sanitize user input in the database connector, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "ownCloud",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0344",
+    "severity": "Medium",
+    "description": "Elasticsearch does not properly sanitize user input in the notification service, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "Elasticsearch",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0141",
+    "severity": "Critical",
+    "description": "Flannel contains a remote code execution vulnerability in the user management panel that allows an attacker to execute arbitrary code via crafted TCP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Flannel",
+    "year": 2023,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0167",
+    "severity": "High",
+    "description": "A cross-site scripting (XSS) vulnerability in Fortify allows remote attackers to inject malicious scripts into web pages viewed by other users, potentially stealing session tokens.",
+    "product": "Fortify",
+    "year": 2024,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0130",
+    "severity": "Critical",
+    "description": "A critical SQL injection vulnerability in MongoDB enables attackers to extract sensitive database contents, modify data, and potentially execute operating system commands.",
+    "product": "MongoDB",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0152",
+    "severity": "Critical",
+    "description": "A critical SQL injection vulnerability in Log4j enables attackers to extract sensitive database contents, modify data, and potentially execute operating system commands.",
+    "product": "Log4j",
+    "year": 2022,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0140",
+    "severity": "Critical",
+    "description": "Jenkins contains an authentication bypass vulnerability in the import/export feature that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Jenkins",
+    "year": 2021,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2002-1912",
+    "severity": "High",
+    "description": "SkyStream EMR5000 1.16 through 1.18 does not drop packets or disable the Ethernet interface when the buffers are full, which allows remote attackers to cause a denial of service (null pointer exception and kernel panic) via a large number of packets.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0441",
+    "severity": "Low",
+    "description": "Fluentd logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "Fluentd",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2004-1703",
+    "severity": "High",
+    "description": "Fusion News 3.6.1 allows remote attackers to add user accounts, if the administrator is logged in, via a comment that contains an img bbcode tag that calls index.php with the signup action, which is executed when the administrator's browser loads the page with the img tag.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0272",
+    "severity": "Medium",
+    "description": "Zeek transmits sensitive data over unencrypted channels in the backup utility, exposing it to network eavesdropping.",
+    "product": "Zeek",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2004-0346",
+    "severity": "High",
+    "description": "Off-by-one buffer overflow in _xlate_ascii_write() in ProFTPD 1.2.7 through 1.2.9rc2p allows local users to gain privileges via a 1024 byte RETR command.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2021-0143",
+    "severity": "Critical",
+    "description": "Wireshark contains a remote code execution vulnerability in the session manager that allows an attacker to execute arbitrary code via crafted REST API requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "Wireshark",
+    "year": 2022,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0430",
+    "severity": "Low",
+    "description": "Mercurial does not rate-limit authentication attempts, though account lockout policies partially mitigate brute-force risks.",
+    "product": "Mercurial",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0453",
+    "severity": "Low",
+    "description": "Travis CI contains a minor information disclosure in the message queue where version numbers are exposed in HTTP response headers.",
+    "product": "Travis CI",
+    "year": 2024,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2002-0367",
+    "severity": "High",
+    "description": "smss.exe debugging subsystem in Windows NT and Windows 2000 does not properly authenticate programs that connect to other programs, which allows local users to gain administrator or SYSTEM privileges by duplicating a handle to a privileged process, as demonstrated by DebPloit.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0439",
+    "severity": "Low",
+    "description": "WebLogic does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "WebLogic",
+    "year": 2023,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0261",
+    "severity": "Medium",
+    "description": "Black Duck allows local users to read sensitive files through the report generator due to improper permission settings on configuration directories.",
+    "product": "Black Duck",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0147",
+    "severity": "Critical",
+    "description": "RabbitMQ contains a remote code execution vulnerability in the web interface that allows an attacker to execute arbitrary code via crafted FTP requests. Successful exploitation requires no authentication and can lead to complete system compromise.",
+    "product": "RabbitMQ",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0442",
+    "severity": "Low",
+    "description": "A documentation error in  OrientDB security guidelines recommends weaker cipher suites than currently considered secure.",
+    "product": " OrientDB",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0118",
+    "severity": "Critical",
+    "description": "Flutter contains a server-side request forgery (SSRF) vulnerability in the cache manager that enables attackers to probe internal network services and access restricted resources.",
+    "product": "Flutter",
+    "year": 2021,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0488",
+    "severity": "Low",
+    "description": "An insecure default configuration in Samba enables unnecessary services that expand the attack surface.",
+    "product": "Samba",
+    "year": 2022,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0180",
+    "severity": "High",
+    "description": "A cross-site scripting (XSS) vulnerability in Microsoft Exchange allows remote attackers to inject malicious scripts into web pages viewed by other users, potentially stealing session tokens.",
+    "product": "Microsoft Exchange",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0144",
+    "severity": "Critical",
+    "description": "A command injection flaw in RabbitMQ permits remote authenticated users to execute arbitrary system commands with elevated privileges through the settings interface.",
+    "product": "RabbitMQ",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0467",
+    "severity": "Low",
+    "description": "A verbose error message in Jira reveals the underlying database type and version information to unauthenticated users.",
+    "product": "Jira",
+    "year": 2023,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2001-0497",
+    "severity": "High",
+    "description": "dnskeygen in BIND 8.2.4 and earlier, and dnssec-keygen in BIND 9.1.2 and earlier, set insecure permissions for a HMAC-MD5 shared secret key file used for DNS Transactional Signatures (TSIG), which allows attackers to obtain the keys and perform dynamic DNS updates.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0383",
+    "severity": "Medium",
+    "description": "An integer overflow in Hibernate can lead to unexpected behavior in the search functionality when processing large input values.",
+    "product": "Hibernate",
+    "year": 2024,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0271",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in Travis CI logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "Travis CI",
+    "year": 2021,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0401",
+    "severity": "Low",
+    "description": "Palo Alto PAN-OS logs connection attempts at DEBUG level, producing verbose output without security impact.",
+    "product": "Palo Alto PAN-OS",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0325",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Nexus allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Nexus",
+    "year": 2024,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2002-2067",
+    "severity": "High",
+    "description": "East-Tec Eraser 2002 does not clear Windows alternate data streams that are attached to files on NTFS file systems, which allows attackers to recover sensitive information that was supposed to be deleted.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0386",
+    "severity": "Medium",
+    "description": "A timing side-channel in Microsoft Exchange allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Microsoft Exchange",
+    "year": 2024,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0414",
+    "severity": "Low",
+    "description": "A verbose error message in MySQL reveals the underlying database type and version information to unauthenticated users.",
+    "product": "MySQL",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0240",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Drupal allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Drupal",
+    "year": 2023,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0384",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Consul allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Consul",
+    "year": 2024,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2021-0364",
+    "severity": "Medium",
+    "description": "Dex transmits sensitive data over unencrypted channels in the report generator, exposing it to network eavesdropping.",
+    "product": "Dex",
+    "year": 2021,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0245",
+    "severity": "Medium",
+    "description": "A timing side-channel in Couchbase allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Couchbase",
+    "year": 2021,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0171",
+    "severity": "High",
+    "description": "Apache Struts contains an information disclosure flaw in the input sanitiser that exposes sensitive configuration data, including database credentials, to unauthenticated users.",
+    "product": "Apache Struts",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0298",
+    "severity": "Medium",
+    "description": "Palo Alto PAN-OS allows local users to read sensitive files through the user management panel due to improper permission settings on configuration directories.",
+    "product": "Palo Alto PAN-OS",
+    "year": 2022,
+    "vector": "HTTP"
+  },
+  {
+    "cve_id": "CVE-2021-0491",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Adminer could allow client-side scripts to access session tokens.",
+    "product": "Adminer",
+    "year": 2022,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2001-1537",
+    "severity": "High",
+    "description": "The default \"basic\" security setting' in config.php for TWIG webmail 2.7.4 and earlier stores cleartext usernames and passwords in cookies, which could allow attackers to obtain authentication information and gain privileges.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0353",
+    "severity": "Medium",
+    "description": "A cross-site request forgery (CSRF) vulnerability in Unbound allows remote attackers to perform unauthorized actions on behalf of authenticated users.",
+    "product": "Unbound",
+    "year": 2024,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2021-0230",
+    "severity": "Medium",
+    "description": "MongoDB allows local users to read sensitive files through the plugin system due to improper permission settings on configuration directories.",
+    "product": "MongoDB",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2021-0276",
+    "severity": "Medium",
+    "description": "An information exposure vulnerability in MongoDB logs sensitive user data including passwords and session identifiers in plaintext log files.",
+    "product": "MongoDB",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-1999-1568",
+    "severity": "High",
+    "description": "Off-by-one error in NcFTPd FTP server before 2.4.1 allows a remote attacker to cause a denial of service (crash) via a long PORT command.",
+    "source": "nvd_api",
+    "year": 1999
+  },
+  {
+    "cve_id": "CVE-2001-0334",
+    "severity": "High",
+    "description": "FTP service in IIS 5.0 and earlier allows remote attackers to cause a denial of service via a wildcard sequence that generates a long string when it is expanded.",
+    "source": "nvd_api",
+    "year": 2001
+  },
+  {
+    "cve_id": "CVE-2021-0351",
+    "severity": "Medium",
+    "description": "A timing side-channel in Hyper-V allows attackers to infer sensitive information by measuring response times for different inputs.",
+    "product": "Hyper-V",
+    "year": 2023,
+    "vector": "SMTP"
+  },
+  {
+    "cve_id": "CVE-2002-0704",
+    "severity": "High",
+    "description": "The Network Address Translation (NAT) capability for Netfilter (\"iptables\") 1.2.6a and earlier leaks translated IP addresses in ICMP error messages.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0333",
+    "severity": "Medium",
+    "description": "TimescaleDB implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "TimescaleDB",
+    "year": 2023,
+    "vector": "REST API"
+  },
+  {
+    "cve_id": "CVE-2002-2069",
+    "severity": "High",
+    "description": "PGP 6.x and 7.x does not clear Windows alternate data streams that are attached to files on NTFS file systems, which allows attackers to recover sensitive information that was supposed to be deleted.",
+    "source": "nvd_api",
+    "year": 2002
+  },
+  {
+    "cve_id": "CVE-2021-0431",
+    "severity": "Low",
+    "description": "A verbose error message in Hibernate reveals the underlying database type and version information to unauthenticated users.",
+    "product": "Hibernate",
+    "year": 2021,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0232",
+    "severity": "Medium",
+    "description": "SaltStack implements weak password policies that allow users to set easily guessable passwords, increasing the risk of brute-force attacks.",
+    "product": "SaltStack",
+    "year": 2024,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2004-1967",
+    "severity": "High",
+    "description": "Cross-site request forgery (CSRF) vulnerabilities in (1) cp_forums.php, (2) cp_usergroup.php, (3) cp_ipbans.php, (4) myhome.php, (5) post.php, or (6) moderator.php in Open Bulletin Board (OpenBB) 1.0.6 and earlier allow remote attackers to execute arbitrary code by including the code in an image tag or a link.",
+    "source": "nvd_api",
+    "year": 2004
+  },
+  {
+    "cve_id": "CVE-2003-0844",
+    "severity": "High",
+    "description": "mod_gzip 1.3.26.1a and earlier, and possibly later official versions, when running in debug mode without the Apache log, allows local users to overwrite arbitrary files via (1) a symlink attack on predictable temporary filenames on Unix systems, or (2) an NTFS hard link on Windows systems when the \"Strengthen default permissions of internal system objects\" policy is not enabled.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0191",
+    "severity": "High",
+    "description": "A denial of service vulnerability in Cisco routers can be triggered by sending specially crafted UDP requests, causing the application to become unresponsive.",
+    "product": "Cisco routers",
+    "year": 2023,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0354",
+    "severity": "Medium",
+    "description": "An integer overflow in Couchbase can lead to unexpected behavior in the configuration parser when processing large input values.",
+    "product": "Couchbase",
+    "year": 2023,
+    "vector": "FTP"
+  },
+  {
+    "cve_id": "CVE-2021-0131",
+    "severity": "Critical",
+    "description": "Black Duck contains an authentication bypass vulnerability in the theme engine that allows remote attackers to gain administrative access without valid credentials.",
+    "product": "Black Duck",
+    "year": 2022,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2003-0411",
+    "severity": "High",
+    "description": "Sun ONE Application Server 7.0 for Windows 2000/XP allows remote attackers to obtain JSP source code via a request that uses the uppercase \".JSP\" extension instead of the lowercase .jsp extension.",
+    "source": "nvd_api",
+    "year": 2003
+  },
+  {
+    "cve_id": "CVE-2021-0428",
+    "severity": "Low",
+    "description": "An insecure default configuration in Pritunl enables unnecessary services that expand the attack surface.",
+    "product": "Pritunl",
+    "year": 2022,
+    "vector": "TCP"
+  },
+  {
+    "cve_id": "CVE-2021-0246",
+    "severity": "Medium",
+    "description": "Etcd does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Etcd",
+    "year": 2022,
+    "vector": "SSH"
+  },
+  {
+    "cve_id": "CVE-2021-0367",
+    "severity": "Medium",
+    "description": "Azure AD does not invalidate session tokens after password changes, allowing attackers with stolen credentials to maintain access.",
+    "product": "Azure AD",
+    "year": 2024,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0172",
+    "severity": "High",
+    "description": "A stored cross-site scripting vulnerability in WireGuard permits persistent injection of malicious scripts that execute whenever affected pages are loaded.",
+    "product": "WireGuard",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0209",
+    "severity": "Medium",
+    "description": "F5 BIG-IP does not properly sanitize user input in the backup utility, leading to reflected XSS that requires user interaction to exploit.",
+    "product": "F5 BIG-IP",
+    "year": 2024,
+    "vector": "SOAP"
+  },
+  {
+    "cve_id": "CVE-2021-0186",
+    "severity": "High",
+    "description": "A race condition in Sonatype Nexus allows local users to gain privileges by exploiting a window between security checks and resource access.",
+    "product": "Sonatype Nexus",
+    "year": 2021,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0450",
+    "severity": "Low",
+    "description": "A missing security attribute on cookies in Metricbeat could allow client-side scripts to access session tokens.",
+    "product": "Metricbeat",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0108",
+    "severity": "Critical",
+    "description": " OrientDB is affected by a deserialization vulnerability that allows unauthenticated remote attackers to execute arbitrary code by sending specially crafted requests to the the network listener endpoint.",
+    "product": " OrientDB",
+    "year": 2022,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0124",
+    "severity": "Critical",
+    "description": "A heap-based buffer overflow in MikroTik RouterOS 4.1 allows remote attackers to execute arbitrary code through malformed XLSX files. This vulnerability is being actively exploited in the wild.",
+    "product": "MikroTik RouterOS",
+    "year": 2023,
+    "vector": "ICMP"
+  },
+  {
+    "cve_id": "CVE-2021-0248",
+    "severity": "Medium",
+    "description": "A clickjacking vulnerability in Keycloak allows attackers to trick users into clicking concealed interface elements on malicious web pages.",
+    "product": "Keycloak",
+    "year": 2023,
+    "vector": "GraphQL"
+  },
+  {
+    "cve_id": "CVE-2005-1941",
+    "severity": "High",
+    "description": "SilverCity before 0.9.5-r1 installs (1) cgi-styler-form.py, (2) cgi-styler.py, and (3) source2html.py with read and write world permissions, which allows local users to execute arbitrary code.",
+    "source": "nvd_api",
+    "year": 2005
+  },
+  {
+    "cve_id": "CVE-2021-0444",
+    "severity": "Low",
+    "description": "Arista EOS does not implement HTTP Strict Transport Security headers, potentially allowing downgrade attacks on encrypted connections.",
+    "product": "Arista EOS",
+    "year": 2023,
+    "vector": "HTTPS"
+  },
+  {
+    "cve_id": "CVE-2021-0426",
+    "severity": "Low",
+    "description": "Missing Content Security Policy headers in Cucumber reduce defense-in-depth against potential injection attacks.",
+    "product": "Cucumber",
+    "year": 2021,
+    "vector": "UDP"
+  },
+  {
+    "cve_id": "CVE-2021-0114",
+    "severity": "Critical",
+    "description": "A critical SQL injection vulnerability in Gitea enables attackers to extract sensitive database contents, modify data, and potentially execute operating system commands.",
+    "product": "Gitea",
+    "year": 2022,
+    "vector": "gRPC"
+  },
+  {
+    "cve_id": "CVE-2021-0158",
+    "severity": "Critical",
+    "description": "Heartbeat allows unauthenticated remote code execution via the network listener due to improper input validation. Attackers can exploit this flaw to gain root privileges on affected systems.",
+    "product": "Heartbeat",
+    "year": 2023,
+    "vector": "DNS"
+  },
+  {
+    "cve_id": "CVE-2021-0451",
+    "severity": "Low",
+    "description": "A verbose error message in Envoy reveals the underlying database type and version information to unauthenticated users.",
+    "product": "Envoy",
+    "year": 2021,
+    "vector": "WebSocket"
+  },
+  {
+    "cve_id": "CVE-2021-0142",
+    "severity": "Critical",
+    "description": "A path traversal vulnerability in Hadoop allows remote attackers to read arbitrary files outside the intended directory, potentially exposing credentials and configuration data.",
+    "product": "Hadoop",
+    "year": 2024,
+    "vector": "SMTP"
+  }
+]

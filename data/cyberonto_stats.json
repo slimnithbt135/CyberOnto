@@ -1,0 +1,71 @@
+{
+  "classes": 25,
+  "object_properties": 13,
+  "data_properties": 13,
+  "individuals": 6079,
+  "triples": 29182,
+  "cqs_passed": 12,
+  "cqs_total": 12,
+  "cq_details": [
+    {
+      "id": "CQ1",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ2",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ3",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ4",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ5",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ6",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ7",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ8",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ9",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ10",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ11",
+      "status": "PASS",
+      "passed": true
+    },
+    {
+      "id": "CQ12",
+      "status": "PASS",
+      "passed": true
+    }
+  ]
+}
