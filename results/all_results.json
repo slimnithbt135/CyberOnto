@@ -55,8 +55,8 @@
           110
         ]
       ],
-      "time_seconds": 0.042504072189331055,
-      "records_per_second": 28232.588977702988
+      "time_seconds": 0.03969097137451172,
+      "records_per_second": 30233.576010956534
     },
     "Keyword Baseline": {
       "method": "Keyword Baseline",
@@ -113,8 +113,8 @@
           110
         ]
       ],
-      "time_seconds": 0.07167887687683105,
-      "records_per_second": 16741.333741347713
+      "time_seconds": 0.04688858985900879,
+      "records_per_second": 25592.580276104036
     },
     "FastText-Style": {
       "method": "FastText-Style",
@@ -171,8 +171,8 @@
           0
         ]
       ],
-      "time_seconds": 0.01140904426574707,
-      "records_per_second": 105179.71287066642
+      "time_seconds": 0.011778831481933594,
+      "records_per_second": 101877.67792081613
     },
     "TF-IDF + LR": {
       "method": "TF-IDF + LR",
@@ -229,8 +229,8 @@
           264
         ]
       ],
-      "time_seconds": 0.07821774482727051,
-      "records_per_second": 15341.787245975695
+      "time_seconds": 0.06455183029174805,
+      "records_per_second": 18589.713019390583
     },
     "Majority Baseline": {
       "method": "Majority Baseline",
@@ -405,8 +405,8 @@
           0
         ]
       ],
-      "time_seconds": 0.025252342224121094,
-      "records_per_second": 19800.143509951282
+      "time_seconds": 0.02101898193359375,
+      "records_per_second": 23788.021778584392
     },
     "Keyword Baseline": {
       "method": "Keyword Baseline",
@@ -463,8 +463,8 @@
           0
         ]
       ],
-      "time_seconds": 0.031228303909301758,
-      "records_per_second": 16011.116116077905
+      "time_seconds": 0.027362346649169922,
+      "records_per_second": 18273.286513427323
     },
     "FastText-Style": {
       "method": "FastText-Style",
@@ -521,8 +521,8 @@
           0
         ]
       ],
-      "time_seconds": 0.005481243133544922,
-      "records_per_second": 91220.18268812528
+      "time_seconds": 0.004937648773193359,
+      "records_per_second": 101262.77160791888
     },
     "TF-IDF + LR": {
       "method": "TF-IDF + LR",
@@ -579,8 +579,8 @@
           18
         ]
       ],
-      "time_seconds": 0.038582801818847656,
-      "records_per_second": 12959.141804879255
+      "time_seconds": 0.037825822830200195,
+      "records_per_second": 13218.483104637164
     },
     "Majority Baseline": {
       "method": "Majority Baseline",
@@ -823,7 +823,7 @@
   },
   "metadata": {
     "title": "CyberOnto v4 - Complete Experimental Report",
-    "generated_at": "2026-05-31T15:01:01.937295",
+    "generated_at": "2026-06-07T08:32:14.415016",
     "random_seed": 42
   }
 }
