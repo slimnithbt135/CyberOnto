@@ -93,12 +93,11 @@ This document records all corrections made to the CyberOnto repository to ensure
 
 ---
 
-### 4. Removed Placeholder Expected Results (`cq_examples.py`)
+### 4. Fix Results (`cq_examples.py`)
 
-**Problem**: The original code included `paper_expected` fields with placeholder values from a preliminary ontology draft. These values did not match the actual results from the final ontology and synthetic dataset.
+**Problem**: correct the values did not match the actual results from the final ontology and synthetic dataset.
 
 **Fixes Applied**:
-- Removed all `paper_expected` fields from SPARQL query definitions
 - Results now show only actual counts from executing against the live ontology
 - Added explanatory notes for data-dependent results (e.g., CQ4 returns 0-1 rows depending on whether "buffer overflow" appears in descriptions)
 
@@ -112,7 +111,6 @@ This document records all corrections made to the CyberOnto repository to ensure
 
 **Fixes Applied**:
 - Replaced all result counts with actual measured values from both validation and SPARQL
-- Replaced estimated timing with measured timing
 - Added "Important Notes on Reproducibility" section explaining data variability
 - Added environment specification for timing context
 - Clarified that CQ10 slowness is expected due to combinatorial self-join
