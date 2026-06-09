@@ -411,3 +411,77 @@ def run_all_validations(onto):
     print(f"[+] Results: {total_passed} passed, {total_failed} failed out of {len(validations)}")
 
     return results
+
+
+# ═══════════════════════════════════════════════════════════
+# MAIN EXECUTION — Added to enable direct command-line usage
+# ═══════════════════════════════════════════════════════════
+
+if __name__ == "__main__":
+    import sys
+    import os
+    import json
+
+    # Try to load the ontology
+    try:
+        from owlready2 import get_ontology
+    except ImportError:
+        print("[!] owlready2 not installed. Install with: pip install owlready2")
+        sys.exit(1)
+
+    # Search for ontology in multiple possible locations
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    possible_paths = [
+        os.path.join(script_dir, "../data/cyberonto.owl"),
+        os.path.join(script_dir, "../../data/cyberonto.owl"),
+        os.path.join(script_dir, "cyberonto.owl"),
+        os.path.join(script_dir, "../data/cyberonto.owl"),
+        os.path.join(os.getcwd(), "data/cyberonto.owl"),
+        os.path.join(os.getcwd(), "cyberonto.owl"),
+        "../data/cyberonto.owl",
+        "../../data/cyberonto.owl",
+        "data/cyberonto.owl",
+    ]
+
+    onto_path = None
+    for p in possible_paths:
+        abs_p = os.path.abspath(p)
+        if os.path.exists(abs_p):
+            onto_path = abs_p
+            break
+
+    if onto_path is None:
+        print("[!] Could not find cyberonto.owl")
+        print("    Searched in the following locations:")
+        for p in possible_paths:
+            print(f"      - {os.path.abspath(p)}")
+        print("\n    Please run build_ontology.py first, or place the .owl file in the data/ directory.")
+        sys.exit(1)
+
+    print(f"[*] Loading ontology from: {onto_path}")
+    try:
+        onto = get_ontology(onto_path).load()
+        classes = list(onto.classes())
+        individuals = list(onto.individuals())
+        print(f"[+] Ontology loaded: {len(classes)} classes, {len(individuals)} individuals")
+    except Exception as e:
+        print(f"[!] Failed to load ontology: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+    # Run all validations
+    print("\n[*] Starting competency question validation...")
+    results = run_all_validations(onto)
+
+    # Save results to JSON
+    output_dir = os.path.dirname(onto_path)
+    output_file = os.path.join(output_dir, "cyberonto_cq_validation.json")
+    try:
+        with open(output_file, "w") as f:
+            json.dump(results, f, indent=2)
+        print(f"\n[+] Results saved to: {output_file}")
+    except Exception as e:
+        print(f"\n[!] Could not save JSON results: {e}")
+
+    print("\n[*] Done.")
